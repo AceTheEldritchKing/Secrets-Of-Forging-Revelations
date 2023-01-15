@@ -1,0 +1,39 @@
+{
+    "replace": true,
+    "slots": [ "greatsword/guard" ],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "variants": [
+        {
+            "materials": [ "tetra:metal/", "tetra:wood/", "tetra:scale/", "tetra:bone/", "tetra:misc/vent_plate" ],
+            "key": "straight_guard/",
+            "integrity": -1,
+            "attributes": {
+                "generic.armor": 1,
+                "generic.attack_speed": -0.1
+            },
+            "extract": {
+                "primaryAttributes": {
+                    "generic.armor": 0.3
+                },
+                "secondaryAttributes": {
+                    "generic.armor": 0.2
+                },
+                "tertiaryAttributes": {
+                    "generic.armor": -0.1,
+                    "generic.attack_speed": 0.1
+                },
+                "durability": 0.2,
+                "integrity": -0.1,
+                "glyph": {
+                    "textureX": 7,
+                    "textureY": 16
+                },
+                "availableTextures": [ "metal", "crude" ],
+                "models": [{
+                    "location": "tetra:items/module/greatsword/guard/straight_guard/"
+                }]
+            }
+        }
+    ]
+}

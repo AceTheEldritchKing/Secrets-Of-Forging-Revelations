@@ -1,0 +1,39 @@
+{
+	"replace": true,
+	"slots": [ "sword/blade" ],
+	"type": "tetra:basic_major_module",
+	"improvements": [
+		"tetra:sword/chillrend_blade/",
+		"tetra:sword/shared_blade/",
+		"tetra:sword/shared/",
+		"tetra:shared/"
+	],
+	"variants": [
+		{
+			"key": "chillrend_blade/chillrend_blade",
+			"attributes": {
+				"generic.attack_speed": -1.95,
+				"generic.attack_damage": 9.5
+			},
+			"aspects": {
+				"edgedWeapon": 2,
+				"breakable": 2
+			},
+			"durability": 90,
+			"effects": {
+				"sweeping": 1,
+				"truesweep": 1,
+				"intuit": 2,
+				"tetrutils:freezing": 20
+			},
+			"magicCapacity": 1500,
+			"glyph": {
+				"textureX": 160,
+                "textureY": 48
+			},
+			"models": [{
+					"location": "tetra:items/module/sword/blade/chillrend_blade/chillrend_blade"
+			}]
+		}
+	]
+}

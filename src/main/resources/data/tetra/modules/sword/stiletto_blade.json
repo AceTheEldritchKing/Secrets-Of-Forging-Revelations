@@ -1,0 +1,56 @@
+{
+	"replace": true,
+	"slots": [ "sword/blade" ],
+	"type": "tetra:basic_major_module",
+	"improvements": [
+		"tetra:sword/stiletto_blade/",
+		"tetra:sword/shared_blade/",
+		"tetra:sword/shared/",
+		"tetra:shared/"
+	],
+	"variants": [
+		{
+			"materials": [ "tetra:wood/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+			"key": "stiletto_blade/",
+			"attributes": {
+				"generic.attack_speed": -1.4,
+				"generic.attack_damage": 0.1,
+				"forge:reach_distance": -1
+			},
+			"effects": {
+				"armorPenetration": 4,
+				"jab": 90
+			},
+			"aspects": {
+				"edgedWeapon": 2,
+				"breakable": 2
+			},
+			"durability": -20,
+			"extract": {
+				"primaryAttributes": {
+					"generic.attack_damage": 0.6
+				},
+				"primaryEffects": {
+					"armorPenetration": 4
+				},
+				"secondaryEffects": {
+					"armorPenetration": 2
+				},
+				"tertiaryEffects": {
+					"armorPenetration": -1
+				},
+				"durability": 0.6,
+				"integrity": -1,
+				"magicCapacity": 2.5,
+				"glyph":{
+					"textureX": 160,
+                    "textureY": 48
+				},
+				"availableTextures": [ "metal", "shiny", "grainy", "crude" ],
+				"models": [{
+					"location": "tetra:items/module/sword/blade/stiletto_blade/"
+				}]
+			}
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"replace": true,
+	"slots": [ "sword/blade" ],
+	"materialSlotCount": 1,
+	"materialRevealSlot": 0,
+	"rarity": "temporary",
+	"displayType": "major",
+	"glyph": {
+		"textureX": 160,
+        "textureY": 48
+	},
+	"outcomes": [
+		{
+			"material": {
+				"items": [ "minecraft:ice" ]
+			},
+			"requiredTools": {
+				"hammer_dig": "minecraft:iron"
+			},
+			"moduleKey": "sword/chillrend_blade",
+			"moduleVariant": "chillrend_blade/chillrend_blade"
+		}
+	]
+}

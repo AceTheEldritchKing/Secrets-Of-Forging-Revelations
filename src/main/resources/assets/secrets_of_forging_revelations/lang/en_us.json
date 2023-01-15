@@ -1,0 +1,36 @@
+{
+    "tetra/schematic/sword/stiletto_blade.name": "Stiletto blade",
+    "tetra/schematic/sword/stiletto_blade.description": "Replace the current sword blade with a stiletto blade. Not to be confused with the high heel stilettoes.\n \nMaterial §fhardness§r increases §fdamage§r.",
+    "tetra/schematic/sword/stiletto_blade.slot1": "Blade material",
+
+    "tetra.module.sword/stiletto_blade.item_name": "Stiletto",
+    "tetra.module.sword/stiletto_blade.name": "Stiletto",
+    "tetra.module.sword/stiletto_blade.description": "A sharp, piercing dagger. Not the shoe.",
+    "tetra.module.sword/stiletto_blade.material_name": "%s stiletto",
+    "tetra.module.sword/stiletto_blade.prefix": "%s",
+
+    "tetra/schematic/sword/straight_guard.name": "Straight guard",
+    "tetra/schematic/sword/straight_guard.description": "Craft a straight guard that protects the hand of the user.\n \nMaterial §fhardness§r and §fflexibility§r increases the armor amount.",
+    "tetra/schematic/sword/straight_guard.slot1": "Guard material",
+
+    "tetra.module.sword/straight_guard.name": "Straight guard",
+    "tetra.module.sword/straight_guard.description": "A straight guard that protects the hand of the user.",
+    "tetra.module.sword/straight_guard.material_name": "%s straight guard",
+
+    "tetra/schematic/greatsword/straight_guard.name": "Straight guard",
+    "tetra/schematic/greatsword/straight_guard.description": "Craft a straight guard that protects the hand of the user.\n \nMaterial §fhardness§r and §fflexibility§r increases the armor amount.",
+    "tetra/schematic/greatsword/straight_guard.slot1": "Guard material",
+
+    "tetra.module.greatsword/straight_guard.name": "Straight guard",
+    "tetra.module.greatsword/straight_guard.description": "A straight guard that protects the hand of the user.",
+    "tetra.module.greatsword/straight_guard.material_name": "%s straight guard",
+
+    "tetra/schematic/sword/chillrend_blade.name": "Chillrend",
+    "tetra/schematic/sword/chillrend_blade.description": "An icy blade than can freeze opponents solid.",
+    "tetra/schematic/sword/chillrend_blade.slot1": "Chillrend",
+
+    "tetra.module.sword/chillrend_blade.item_name": "Chillrend",
+    "tetra.module.sword/chillrend_blade.name": "Chillrend",
+    "tetra.module.sword/chillrend_blade.description": "An icy blade hailing from land where the mountian rims meet the sky.",
+    "tetra.variant.chillrend_blade/chillrend_blade": "Chillrend"
+}
