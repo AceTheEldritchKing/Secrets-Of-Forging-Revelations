@@ -1,0 +1,37 @@
+{
+    "Version": 1.0,
+    "attributemap":{
+        "sword/blade": {
+            "sword/stiletto_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:dagger"
+                    }
+                }
+            },
+            "sword/chillrend_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:sword"
+                    }
+                }
+            }
+        },
+        "greatsword/blade": {
+            "greatsword/longsword_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:longsword"
+                    }
+                }
+            },
+            "greatsword/claymore_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:claymore"
+                    }
+                }
+            }
+        }
+    }
+}

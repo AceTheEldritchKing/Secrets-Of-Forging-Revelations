@@ -1,0 +1,44 @@
+{
+    "replace": true,
+    "slots": [ "greatsword/blade" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:greatsword/longsword_blade/",
+        "tetra:greatsword/shared_blade/",
+        "tetra:greatsword/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+            "key": "longsword_blade/",
+            "attributes": {
+                "generic.attack_speed": -1.9
+            },
+            "effects": {
+                "sweeping": 1
+            },
+            "tools": {
+                "cut": [ 1, 2 ]
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "breakable": 2
+            },
+            "durability": -20,
+            "extract": {
+                "primaryAttributes": {
+                    "generic.attack_damage": 1
+                },
+                "durability": 0.9,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 0
+                },
+                "availableTextures": [ "metal", "shiny", "grainy", "crude" ],
+                "models": [{ "location":  "tetra:items/module/greatsword/blade/longsword_blade/" }]
+            }
+        }
+    ]
+}

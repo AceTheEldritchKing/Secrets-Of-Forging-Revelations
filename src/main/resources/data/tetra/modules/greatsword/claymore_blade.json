@@ -1,0 +1,65 @@
+{
+    "replace": true,
+    "slots": [ "greatsword/blade" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:greatsword/claymore_blade/",
+        "tetra:greatsword/shared_blade/",
+        "tetra:greatsword/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+            "key": "claymore_blade/",
+            "attributes": {
+                "generic.attack_speed": -2.1,
+                "generic.attack_damage": 1.2
+            },
+            "effects": {
+                "sweeping": 1,
+                "tetrutils:frenzy": [ 2, 5 ],
+                "armorPenetration": 1,
+                "skewering": 1
+            },
+            "aspects": {
+                "edgedWeapon": 2,
+                "breakable": 2
+            },
+            "durabilty": -20,
+            "extract": {
+                "primaryAttributes": {
+                    "generic.attack_damage": 1
+                },
+                "secondaryAttributes": {
+                    "generic.attack_damage": 0.2,
+                    "generic.attack_speed": -0.1
+                },
+                "tertiaryAttributes": {
+                    "generic.attack_damage": -0.1,
+                    "generic.attack_speed": 0.1
+                },
+                "primaryEffects": {
+                    "armorPenetration": 1,
+                    "tetrutils:frenzy": [ 1, 2 ],
+                    "skewering": 1
+                },
+                "secondaryEffects": {
+                    "armorPenetration": 1
+                },
+                "tertiaryEffects": {
+                    "sweeping": 1,
+                    "armorPenetration": -1
+                },
+                "durability": 0.9,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 0
+                },
+                "availableTextures": [ "metal", "shiny", "grainy", "crude" ],
+                "models": [{ "location":  "tetra:items/module/greatsword/blade/claymore_blade/" }]
+            }
+        }
+    ]
+}

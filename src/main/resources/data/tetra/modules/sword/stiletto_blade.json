@@ -19,7 +19,8 @@
 			},
 			"effects": {
 				"armorPenetration": 4,
-				"jab": 90
+				"jab": 90,
+				"tetrutils:kb_reduction": 5
 			},
 			"aspects": {
 				"edgedWeapon": 2,
