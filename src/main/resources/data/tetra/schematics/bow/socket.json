@@ -1,0 +1,52 @@
+{
+    "replace": true,
+    "slots": [ "bow/riser" ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 112,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "minecraft:fermented_spider_eye" ],
+                "count": 3,
+                "moduleKey": "bow/socket",
+                "moduleVariant": "bow_potion/harming"
+            }
+        },
+        {
+            "material": {
+                "items": [ "minecraft:spider_eye" ],
+                "count": 3,
+                "moduleKey": "bow/socket",
+                "moduleVariant": "bow_potion/poison"
+            }
+        },
+        {
+            "material": {
+                "items": [ "minecraft:spider_eye" ],
+                "count": 3,
+                "moduleKey": "bow/socket",
+                "moduleVariant": "bow_potion/poison"
+            }
+        },
+        {
+            "material": {
+                "items": [ "minecraft:sugar" ],
+                "count": 3,
+                "moduleKey": "bow/socket",
+                "moduleVariant": "bow_potion/slowness"
+            }
+        },
+        {
+            "material": {
+                "items": [ "minecraft:gunpowder" ],
+                "count": 3,
+                "moduleKey": "bow/socket",
+                "moduleVariant": "bow_potion/weakness"
+            }
+        }
+    ]
+}

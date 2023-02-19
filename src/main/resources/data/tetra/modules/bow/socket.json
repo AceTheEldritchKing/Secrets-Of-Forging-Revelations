@@ -1,0 +1,79 @@
+{
+    "replace": true,
+    "slots": [ "bow/riser" ],
+    "type": "tetra:basic_module",
+    "variants": [
+        {
+            "key": "bow_potion/harming",
+            "durability": 5,
+            "integrity": -1,
+            "effects": {
+                "tetrutils:mob_effect_stacking-minecraft:harming-2,40,1": 1,
+                "tetrutils:tipped": 1
+            },
+            "glyph": {
+                "tint": "620415",
+                "textureX": 112,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/bow/riser/potion/",
+                "type": "static"
+            }]
+        },
+        {
+            "key": "bow_potion/poison",
+            "durability": 5,
+            "integrity": -1,
+            "effects": {
+                "tetrutils:mob_effect_stacking-minecraft:poison-2,100,1": 1,
+                "tetrutils:tipped": 1
+            },
+            "glyph": {
+                "tint": "346204",
+                "textureX": 112,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/bow/riser/potion/default",
+                "type": "static"
+            }]
+        },
+        {
+            "key": "bow_potion/slowness",
+            "durability": 5,
+            "integrity": -1,
+            "effects": {
+                "tetrutils:mob_effect_stacking-minecraft:slowness-2,100,1": 1,
+                "tetrutils:tipped": 1
+            },
+            "glyph": {
+                "tint": "4b5a5c",
+                "textureX": 112,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/bow/riser/potion/default",
+                "type": "static"
+            }]
+        },
+        {
+            "key": "bow_potion/weakness",
+            "durability": 5,
+            "integrity": -1,
+            "effects": {
+                "tetrutils:mob_effect_stacking-minecraft:weakness-2,100,1": 1,
+                "tetrutils:tipped": 1
+            },
+            "glyph": {
+                "tint": "4d4858",
+                "textureX": 112,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/bow/riser/potion/default",
+                "type": "static"
+            }]
+        }
+    ]
+}

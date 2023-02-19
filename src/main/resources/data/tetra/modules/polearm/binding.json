@@ -1,0 +1,62 @@
+{
+    "replace": true,
+    "type": "tetra:basic_module",
+    "slots": [ "polearm/binding" ],
+    "renderLayer": "higher",
+    "tweakKey": "tetra:polearm/binding",
+    "variants": [
+        {
+            "materials": [ "tetra:fibre/", "tetra:skin/" ],
+            "key": "polearm_binding/",
+            "extract": {
+                "secondaryAttributes": {
+                    "generic.attack_speed": -0.1
+                },
+                "durability": 0.1,
+                "integrity": 0.7,
+                "glyph": {
+                    "textureX": 88,
+                    "textureY": 16
+                },
+                "availableTextures": [ "default" ],
+                "models": [ { "location": "tetra:items/module/polearm/binding/binding/" } ]
+            }
+        },
+        {
+            "key": "polearm_binding/bolt",
+            "durability": 12,
+            "attributes": {
+                "generic.attack_speed": -0.1
+            },
+            "glyph": {
+                "tint": "bolt_glyph",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/polearm/binding/binding/bolt",
+                    "tint": "bolt"
+                }
+            ]
+        },
+        {
+            "key": "polearm_binding/prismarine",
+            "durability": 26,
+            "integrity": 1,
+            "attributes": {
+                "generic.attack_speed": -0.1
+            },
+            "glyph": {
+                "tint": "prismarine_glyph",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/polearm/binding/binding/prismarine"
+                }
+            ]
+        }
+    ]
+}

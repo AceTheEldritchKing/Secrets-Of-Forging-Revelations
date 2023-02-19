@@ -1,0 +1,26 @@
+{
+    "replace": true,
+    "slots": [
+        "polearm/binding"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 88,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "materials": [ "tetra:fibre/", "tetra:skin/" ],
+            "moduleKey": "polearm/binding",
+            "moduleVariant": "polearm_binding/"
+        },
+        {
+            "material": {
+                "items": [ "tetra:forged_bolt" ]
+            },
+            "moduleKey": "polearm/binding",
+            "moduleVariant": "polearm_binding/bolt"
+        }
+    ]
+}
