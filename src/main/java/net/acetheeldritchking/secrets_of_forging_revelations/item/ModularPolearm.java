@@ -1,4 +1,4 @@
-package net.acetheeldritchking.item;
+package net.acetheeldritchking.secrets_of_forging_revelations.item;
 
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.entity.LivingEntity;
@@ -14,10 +14,10 @@ import se.mickelus.tetra.data.DataManager;
 import se.mickelus.tetra.gui.GuiModuleOffsets;
 import se.mickelus.tetra.items.modular.IModularItem;
 import se.mickelus.tetra.items.modular.ItemModularHandheld;
+import se.mickelus.tetra.items.modular.impl.ModularSingleHeadedItem;
 import se.mickelus.tetra.module.SchematicRegistry;
 import se.mickelus.tetra.module.schematic.RemoveSchematic;
 import se.mickelus.tetra.module.schematic.RepairSchematic;
-import net.acetheeldritchking.secrets_of_forging_revelations.SecretsOfForgingRevelations;
 
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;
@@ -35,7 +35,7 @@ public class ModularPolearm extends ItemModularHandheld {
     private static final GuiModuleOffsets minorOffsets = new GuiModuleOffsets(-14, 0);
 
     @ObjectHolder(TetraMod.MOD_ID + ":" + identifier)
-    public static ModularPolearm instance;
+    public static ModularSingleHeadedItem instance;
 
     public ModularPolearm() {
         super(new Properties().stacksTo(1).fireResistant());
@@ -52,10 +52,6 @@ public class ModularPolearm extends ItemModularHandheld {
 
         SchematicRegistry.instance.registerSchematic(new RepairSchematic(this, identifier));
         RemoveSchematic.registerRemoveSchematics(this, identifier);
-    }
-
-    public ModularPolearm(Properties properties) {
-        super(properties);
     }
 
     @Override
