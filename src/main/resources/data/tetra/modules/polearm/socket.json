@@ -1,7 +1,9 @@
 {
     "replace": true,
     "type": "tetra:basic_module",
-    "slots": [ "polearm/binding" ],
+    "slots": [
+        "polearm/binding"
+    ],
     "renderLayer": "higher",
     "variants": [
         {

@@ -1,7 +1,9 @@
 {
     "replace": true,
     "type": "tetra:basic_major_module",
-    "slots": "polearm/head",
+    "slots": [
+        "polearm/head"
+    ],
     "improvements": [
         "tetra:enchantment/impaling",
         "tetra:enchantment/channeling",
