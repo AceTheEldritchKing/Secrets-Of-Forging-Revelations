@@ -154,10 +154,15 @@
     "tetra.module.polearm/spearhead.material_name": "%s spearhead",
     "tetra.module.polearm/spearhead.prefix": "%s",
 
+    "tetra/schematic/polearm/head/trident/trident.name": "Trident",
+    "tetra/schematic/polearm/head/trident/trident.description": "Craft a trident from the given material, the knowledge of how one is made has been recently rediscovered.",
+    "tetra/schematic/polearm/head/trident/trident.slot1": "Head material",
+
     "tetra.module.polearm/trident.item_name": "Trident",
     "tetra.module.polearm/trident.name": "Trident",
-    "tetra.module.polearm/trident.description": "A trident head. The knowledge of how one is made has been lost to time",
-    "tetra.variant.trident/trident": "Trident",
+    "tetra.module.polearm/trident.description": "A trident, the knowledge of how one is made has been recently rediscovered.",
+    "tetra.module.polearm/trident.material_name": "%s trident",
+    "tetra.module.polearm/trident.prefix": "%s",
 
     "tetra/schematic/polearm/head/spearhead/serrated_1.name": "Serrate",
     "tetra/schematic/polearm/head/spearhead/serrated_1.description": "Serrate the head. Attacks have a 30%% chance to cause the target to bleed for 4 damage over 2 seconds. Not effective against undead.",
@@ -184,5 +189,15 @@
     "tetra.improvement.spearhead/tempered.description": "Attacks partially ignore armor",
 
     "tetra.improvement.spearhead_hone/damage.name": "Hone: Damage",
-    "tetra.improvement.spearhead_hone/damage.description": "Increases damage dealt"
+    "tetra.improvement.spearhead_hone/damage.description": "Increases damage dealt",
+
+    "tetra/schematic/polearm/head/halberd_head/halberd_head.name": "Halberd head",
+    "tetra/schematic/polearm/head/halberd_head/halberd_head.description": "Forge a halberd head from the given material. Halberds make for an ideal ranged melee weapon, granting stun and armor penetration.",
+    "tetra/schematic/polearm/head/halberd_head/halberd_head.slot1": "Head material",
+
+    "tetra.module.polearm/halberd_head.item_name": "Halberd",
+    "tetra.module.polearm/halberd_head.name": "Halberd head",
+    "tetra.module.polearm/halberd_head.description": "A halberd head, an ideal ranged melee weapon that grants stun and armor penetration.",
+    "tetra.module.polearm/halberd_head.material_name": "%s halberd",
+    "tetra.module.polearm/halberd_head.prefix": "%s"
 }

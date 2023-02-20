@@ -73,6 +73,22 @@
             "experienceCost": 3,
             "moduleKey": "polearm/socket",
             "moduleVariant": "polearm_socket/mana_rune"
+        },
+        {
+            "material": {
+                "items": [ "minecraft:nether_star" ]
+            },
+            "experienceCost": 3,
+            "moduleKey": "polearm/socket",
+            "moduleVariant": "polearm_socket/nether_star"
+        },
+        {
+            "material": {
+                "items": [ "alexsmobs:void_worm_eye" ]
+            },
+            "experienceCost": 15,
+            "moduleKey": "polearm/socket",
+            "moduleVariant": "polearm_socket/void_worm_eye"
         }
     ]
 }
