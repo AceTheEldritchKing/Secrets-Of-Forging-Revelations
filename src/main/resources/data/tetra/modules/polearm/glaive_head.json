@@ -19,32 +19,32 @@
         "tetra:enchantment/ensorcellation_soulbound",
         "tetra:enchantment/ma-enchants_lifesteal",
         "tetra:enchantment/ma-enchants_curse_death",
-        "tetra:polearm/spearhead/",
+        "tetra:polearm/glaive_head/",
         "tetra:polearm/shared_head/",
         "tetra:polearm/shared/",
         "tetra:shared/"
     ],
     "variants": [
         {
-            "materials": [ "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
-            "key": "trident/",
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+            "key": "glaive_head/",
             "attributes": {
-                "generic.attack_damage": 0.8,
-                "generic.attack_speed": -1.1
+                "generic.attack_speed": -0.85,
+                "generic.attack_damage": 1
             },
             "effects": {
-                "skewering": [ 1, 1 ]
+                "sweeping": 2,
+                "tetrutils:frenzy": [ 2, 2 ]
             },
             "aspects": {
-                "pointyWeapon": 2,
-                "throwable": 2,
-                "edgedWeapon": 1,
+                "pointyWeapon": 1,
+                "edgedWeapon": 2,
                 "breakable": 2
             },
             "durability": 20,
             "extract": {
                 "primaryAttributes": {
-                    "generic.attack_damage": 1.3
+                    "generic.attack_damage": 1
                 },
                 "secondaryAttributes": {
                     "generic.attack_damage": 0.2,
@@ -52,28 +52,28 @@
                 },
                 "tertiaryAttributes": {
                     "generic.attack_damage": -0.1,
-                    "generic.attack_speed": 0.15
+                    "generic.attack_speed": 0.2
                 },
                 "primaryEffects": {
-                    "skewering": 0.2
+                    "tetrutils:frenzy": [ 0.5, 0.5 ]
                 },
                 "secondaryEffects": {
-                    "skewering": 0.1
+                    "sweeping": -1
                 },
                 "tertiaryEffects": {
-                    "skewering": -0.1
+                    "sweeping": 1,
+                    "tetrutils:frenzy": -0.2
                 },
                 "durability": 0.7,
                 "integrity": -1,
                 "magicCapacity": 1,
                 "glyph": {
-                    "textureX": 192,
-                    "textureY": 32
+                    "textureX": 0
                 },
                 "availableTextures": [ "metal", "shiny", "crude" ],
                 "models": [
                     {
-                        "location": "tetra:items/module/polearm/head/trident/"
+                        "location": "tetra:items/module/polearm/head/glaive_head/"
                     }
                 ]
             }

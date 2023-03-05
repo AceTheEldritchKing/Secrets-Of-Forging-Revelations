@@ -23,7 +23,8 @@
 			"aspects": {
 				"pointyWeapon": 1,
 				"edgedWeapon":  2,
-				"breakable": 2
+				"breakable": 2,
+				"shieldbreaker": 1
 			},
 			"durability": -20,
 			"extract": {

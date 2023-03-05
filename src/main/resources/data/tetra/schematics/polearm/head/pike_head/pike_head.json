@@ -14,18 +14,18 @@
             "generic.attack_damage": 2
         },
         "secondaryAttributes": {
-            "generic.attack_speed": -1,
-            "generic.attack_damage": 1
+            "generic.attack_damage": 1,
+            "generic.attack_speed": -2
         },
         "durability": 3,
         "integrity": -3,
-        "magicCapacity": 3
+        "magicCapacity": 1
     },
     "outcomes": [
         {
-            "materials": [ "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
-            "moduleKey": "polearm/trident",
-            "moduleVariant": "trident/"
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+            "moduleKey": "polearm/pike_head",
+            "moduleVariant": "pike_head/"
         }
     ]
 }

@@ -199,5 +199,35 @@
     "tetra.module.polearm/halberd_head.name": "Halberd head",
     "tetra.module.polearm/halberd_head.description": "A halberd head, an ideal ranged melee weapon that grants stun and armor penetration.",
     "tetra.module.polearm/halberd_head.material_name": "%s halberd",
-    "tetra.module.polearm/halberd_head.prefix": "%s"
+    "tetra.module.polearm/halberd_head.prefix": "%s",
+
+    "tetra/schematic/polearm/head/pike_head/pike_head.name": "Pike head",
+    "tetra/schematic/polearm/head/pike_head/pike_head.description": "Forge a pike head from the given material. Pikes are long ranged weapons used to help penetrate armor and bring down foes.",
+    "tetra/schematic/polearm/head/pike_head/pike_head.slot1": "Head material",
+
+    "tetra.module.polearm/pike_head.item_name": "Pike",
+    "tetra.module.polearm/pike_head.name": "Pike head",
+    "tetra.module.polearm/pike_head.description": "A pike head, used to help penetrate armor and skewer unarmed opponents.",
+    "tetra.module.polearm/pike_head.material_name": "%s pike",
+    "tetra.module.polearm/pike_head.prefix": "%s",
+
+    "tetra/schematic/polearm/head/glaive_head/glaive_head.name": "Glaive head",
+    "tetra/schematic/polearm/head/glaive_head/glaive_head.description": "Forge a glaive head from the given material. Glaives are a longer ranged melee weapon used to cut foes down at a distance.",
+    "tetra/schematic/polearm/head/glaive_head/glaive_head.slot1": "Head material",
+
+    "tetra.module.polearm/glaive_head.item_name": "Glaive",
+    "tetra.module.polearm/glaive_head.name": "Glaive head",
+    "tetra.module.polearm/glaive_head.description": "A glaive head, a longer ranged melee weapon used to cut foes down at a distance and to gain fury.",
+    "tetra.module.polearm/glaive_head.material_name": "%s glaive",
+    "tetra.module.polearm/glaive_head.prefix": "%s",
+
+    "tetra/schematic/polearm/head/lance_head/lance_head.name": "Lance head",
+    "tetra/schematic/polearm/head/lance_head/lance_head.description": "Forge a lance head from the given material. Lances are large weapons typically used for mounted jousting, and perfect for impaling opponents.",
+    "tetra/schematic/polearm/head/lance_head/lance_head.slot1": "Head material",
+
+    "tetra.module.polearm/lance_head.item_name": "Lance",
+    "tetra.module.polearm/lance_head.name": "Lance head",
+    "tetra.module.polearm/lance_head.description": "A lance head, large weapons typically used for mounted jousting, and perfect for impaling opponents as well as penetrating armor.",
+    "tetra.module.polearm/lance_head.material_name": "%s lance",
+    "tetra.module.polearm/lance_head.prefix": "%s"
 }

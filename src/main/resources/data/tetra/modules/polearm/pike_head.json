@@ -19,61 +19,64 @@
         "tetra:enchantment/ensorcellation_soulbound",
         "tetra:enchantment/ma-enchants_lifesteal",
         "tetra:enchantment/ma-enchants_curse_death",
-        "tetra:polearm/spearhead/",
+        "tetra:polearm/pike_head/",
         "tetra:polearm/shared_head/",
         "tetra:polearm/shared/",
         "tetra:shared/"
     ],
     "variants": [
         {
-            "materials": [ "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
-            "key": "trident/",
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+            "key": "pike_head/",
             "attributes": {
-                "generic.attack_damage": 0.8,
-                "generic.attack_speed": -1.1
+                "generic.attack_damage": 1.25,
+                "generic.attack_speed": -1.5
             },
             "effects": {
-                "skewering": [ 1, 1 ]
+                "skewering": [ 2, 1 ],
+                "armorPenetration": 5
             },
             "aspects": {
                 "pointyWeapon": 2,
-                "throwable": 2,
                 "edgedWeapon": 1,
                 "breakable": 2
             },
             "durability": 20,
             "extract": {
                 "primaryAttributes": {
-                    "generic.attack_damage": 1.3
+                    "generic.attack_damage": 1.4
                 },
                 "secondaryAttributes": {
-                    "generic.attack_damage": 0.2,
-                    "generic.attack_speed": -0.3
+                    "generic.attack_damage": 0.3,
+                    "generic.attack_speed": -0.4
                 },
                 "tertiaryAttributes": {
-                    "generic.attack_damage": -0.1,
-                    "generic.attack_speed": 0.15
+                    "generic.attack_damage": -0.2,
+                    "generic.attack_speed": 0.2
                 },
                 "primaryEffects": {
-                    "skewering": 0.2
+                    "skewering": 0.2,
+                    "armorPenetration": 1
                 },
                 "secondaryEffects": {
-                    "skewering": 0.1
+                    "skewering": 0.1,
+                    "armorPenetration": 0.5
                 },
                 "tertiaryEffects": {
-                    "skewering": -0.1
+                    "skewering": -0.1,
+                    "armorPenetration": -0.4
                 },
-                "durability": 0.7,
+                "durability": 0.8,
                 "integrity": -1,
-                "magicCapacity": 1,
+                "magicCapacity": 0.5,
                 "glyph": {
-                    "textureX": 192,
+                    "textureX": 208,
                     "textureY": 32
                 },
                 "availableTextures": [ "metal", "shiny", "crude" ],
                 "models": [
                     {
-                        "location": "tetra:items/module/polearm/head/trident/"
+                        "location": "tetra:items/module/polearm/head/pike_head/"
                     }
                 ]
             }

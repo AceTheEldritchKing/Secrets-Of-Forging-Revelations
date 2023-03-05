@@ -1,0 +1,30 @@
+{
+    "replace": true,
+    "slots": [
+        "polearm/head"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 0
+    },
+    "translation": {
+        "primaryAttributes": {
+            "generic.attack_damage": 1
+        },
+        "secondaryAttributes": {
+            "generic.attack_damage": 1,
+            "generic.attack_speed": -1
+        },
+        "durability": 2,
+        "integrity": -3,
+        "magicCapacity": 1
+    },
+    "outcomes": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+            "moduleKey": "polearm/glaive_head",
+            "moduleVariant": "glaive_head/"
+        }
+    ]
+}
