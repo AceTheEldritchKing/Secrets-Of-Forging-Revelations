@@ -19,7 +19,7 @@
         "tetra:enchantment/ensorcellation_soulbound",
         "tetra:enchantment/ma-enchants_lifesteal",
         "tetra:enchantment/ma-enchants_curse_death",
-        "tetra:polearm/glaive_head/",
+        "tetra:polearm/scythe_head/",
         "tetra:polearm/shared_head/",
         "tetra:polearm/shared/",
         "tetra:shared/"
@@ -27,13 +27,15 @@
     "variants": [
         {
             "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
-            "key": "glaive_head/",
+            "key": "scythe_head/",
             "attributes": {
-                "generic.attack_speed": -0.85,
-                "generic.attack_damage": 1
+                "generic.attack_damage": 1.3,
+                "generic.attack_speed": -1
             },
             "effects": {
-                "sweeping": 2
+                "sweeping": 3,
+                "severing": [ 1, 0.2 ],
+                "reap": [ 1, 0.5 ]
             },
             "aspects": {
                 "pointyWeapon": 1,
@@ -43,32 +45,37 @@
             "durability": 20,
             "extract": {
                 "primaryAttributes": {
-                    "generic.attack_damage": 1
+                    "generic.attack_damage": 1.2
                 },
                 "secondaryAttributes": {
-                    "generic.attack_damage": 0.2,
+                    "generic.attack_damage": 0.3,
                     "generic.attack_speed": -0.3
                 },
                 "tertiaryAttributes": {
-                    "generic.attack_damage": -0.1,
-                    "generic.attack_speed": 0.2
+                    "generic.attack_damage": -0.25,
+                    "generic.attack_speed": 0.25
                 },
-                "secondaryEffects": {
-                    "sweeping": -1
+                "primaryEffects": {
+                    "severing": [ 1, 0.1 ]
+                },
+                "secondaryEffect": {
+                    "sweeping": -1,
+                    "severing": [ 1, 0.05 ]
                 },
                 "tertiaryEffects": {
                     "sweeping": 1
                 },
-                "durability": 0.7,
+                "durability": 0.65,
                 "integrity": -1,
                 "magicCapacity": 1,
                 "glyph": {
-                    "textureX": 0
+                    "textureX": 208,
+                    "textureY": 32
                 },
                 "availableTextures": [ "metal", "shiny", "crude" ],
                 "models": [
                     {
-                        "location": "tetra:items/module/polearm/head/glaive_head/"
+                        "location": "tetra:items/module/polearm/head/scythe_head/"
                     }
                 ]
             }

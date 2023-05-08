@@ -19,7 +19,7 @@
         "tetra:enchantment/ensorcellation_soulbound",
         "tetra:enchantment/ma-enchants_lifesteal",
         "tetra:enchantment/ma-enchants_curse_death",
-        "tetra:polearm/glaive_head/",
+        "tetra:polearm/naginata_head/",
         "tetra:polearm/shared_head/",
         "tetra:polearm/shared/",
         "tetra:shared/"
@@ -27,13 +27,15 @@
     "variants": [
         {
             "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
-            "key": "glaive_head/",
+            "key": "naginata_head/",
             "attributes": {
-                "generic.attack_speed": -0.85,
-                "generic.attack_damage": 1
+                "generic.attack_damage": 1.11,
+                "generic.attack_speed": -0.8
             },
             "effects": {
-                "sweeping": 2
+                "sweeping": 2,
+                "skewering": [ 1, 1.5 ],
+                "abilityMomentum": [ 4, 0.5 ]
             },
             "aspects": {
                 "pointyWeapon": 1,
@@ -43,32 +45,38 @@
             "durability": 20,
             "extract": {
                 "primaryAttributes": {
-                    "generic.attack_damage": 1
+                    "generic.attack_damage": 1.1
                 },
                 "secondaryAttributes": {
-                    "generic.attack_damage": 0.2,
-                    "generic.attack_speed": -0.3
+                    "generic.attack_damage": 0.25,
+                    "generic.attack_speed": -0.25
                 },
                 "tertiaryAttributes": {
                     "generic.attack_damage": -0.1,
-                    "generic.attack_speed": 0.2
+                    "generic.attack_speed": 0.25
+                },
+                "primaryEffects": {
+                    "skewering": 1
                 },
                 "secondaryEffects": {
+                    "skewering": 1,
                     "sweeping": -1
                 },
                 "tertiaryEffects": {
+                    "skewering": -1,
                     "sweeping": 1
                 },
-                "durability": 0.7,
+                "durability": 0.8,
                 "integrity": -1,
                 "magicCapacity": 1,
                 "glyph": {
-                    "textureX": 0
+                    "textureLocation": "tetra:textures/gui/aof_glyph.png",
+                    "textureX": 208
                 },
                 "availableTextures": [ "metal", "shiny", "crude" ],
                 "models": [
                     {
-                        "location": "tetra:items/module/polearm/head/glaive_head/"
+                        "location": "tetra:items/module/polearm/head/naginata_head/"
                     }
                 ]
             }

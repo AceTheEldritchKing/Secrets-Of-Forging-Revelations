@@ -53,7 +53,7 @@ Secrets Of Forging: Revelations, an addon for Art of Forging.
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.18.2,1.19)"
+    versionRange="[1.18.2,1.19.2,1.20)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.secrets_of_forging_revelations]]
@@ -68,9 +68,9 @@ Secrets Of Forging: Revelations, an addon for Art of Forging.
     versionRange="[4.4,)"
     ordering="AFTER"
     side="BOTH"
-[[dependencies.secrets_of_forging_revelations]]
-    modId="tetraenlarged"
-    mandatory=true
-    versionRange="[0.1,)"
-    ordering="AFTER"
-    side="BOTH"
+#[[dependencies.secrets_of_forging_revelations]]
+    #modId="tetraenlarged"
+    #mandatory=true
+    #versionRange="[0.1,)"
+    #ordering="AFTER"
+    #side="BOTH"

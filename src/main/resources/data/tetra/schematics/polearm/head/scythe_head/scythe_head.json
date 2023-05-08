@@ -1,0 +1,29 @@
+{
+    "replace": true,
+    "slots": [ "polearm/head" ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 208,
+        "textureY": 32
+    },
+    "translation": {
+        "primaryAttributes": {
+            "generic.attack_damage": 2
+        },
+        "secondaryAttributes": {
+            "generic.attack_damage": 1,
+            "generic.attack_speed": -1
+        },
+        "durability": 2,
+        "integrity": -3,
+        "magicCapacity": 3
+    },
+    "outcomes": [
+        {
+            "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
+            "moduleKey": "polearm/scythe_head",
+            "moduleVariant": "scythe_head/"
+        }
+    ]
+}

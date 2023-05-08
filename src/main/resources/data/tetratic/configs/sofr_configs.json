@@ -32,6 +32,64 @@
                     }
                 }
             }
+        },
+        "polearm/head": {
+            "polearm/spearhead": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:spear"
+                    }
+                }
+            },
+            "polearm/glaive_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:glaive"
+                    }
+                }
+            },
+            "polearm/halberd_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:halberd"
+                    }
+                }
+            },
+            "polearm/lance_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:spear"
+                    }
+                }
+            },
+            "polearm/pike_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:pike"
+                    }
+                }
+            },
+            "polearm/naginata_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:glaive"
+                    }
+                }
+            },
+            "polearm/trident": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:trident"
+                    }
+                }
+            },
+            "polearm/scythe_head": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:scythe"
+                    }
+                }
+            }
         }
     }
 }

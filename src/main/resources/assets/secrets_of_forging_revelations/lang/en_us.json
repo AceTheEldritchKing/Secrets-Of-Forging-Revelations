@@ -229,5 +229,25 @@
     "tetra.module.polearm/lance_head.name": "Lance head",
     "tetra.module.polearm/lance_head.description": "A lance head, large weapons typically used for mounted jousting, and perfect for impaling opponents as well as penetrating armor.",
     "tetra.module.polearm/lance_head.material_name": "%s lance",
-    "tetra.module.polearm/lance_head.prefix": "%s"
+    "tetra.module.polearm/lance_head.prefix": "%s",
+
+    "tetra/schematic/polearm/head/naginata_head/naginata_head.name": "Naginata head",
+    "tetra/schematic/polearm/head/naginata_head/naginata_head.description": "Forge a naginata head from the given material. Naginatas are a forged similar to the katana blade, with the blade now used as a polearm. Popular with female warriors.",
+    "tetra/schematic/polearm/head/naginata_head/naginata_head.slot1": "Head material",
+
+    "tetra.module.polearm/naginata_head.item_name": "Naginata",
+    "tetra.module.polearm/naginata_head.name": "Naginata head",
+    "tetra.module.polearm/naginata_head.description": "A naginata head, forged similar to the katana blade, with the blade now used as a polearm. Popular with female warriors.",
+    "tetra.module.polearm/naginata_head.material_name": "%s naginata",
+    "tetra.module.polearm/naginata_head.prefix": "%s",
+
+    "tetra/schematic/polearm/head/scythe_head/scythe_head.name": "Scythe head",
+    "tetra/schematic/polearm/head/scythe_head/scythe_head.description": "Forge a scythe head from the given material. Scythes are powerful weapons due to their leverage; they're most notable for their sweeping attacks.",
+    "tetra/schematic/polearm/head/scythe_head/scythe_head.slot1": "Head material",
+
+    "tetra.module.polearm/scythe_head.item_name": "Scythe",
+    "tetra.module.polearm/scythe_head.name": "Scythe head",
+    "tetra.module.polearm/scythe_head.description": "A scythe head, a powerful weapon due to its leverage; scythes most notable for their sweeping attacks.",
+    "tetra.module.polearm/scythe_head.material_name": "%s scythe",
+    "tetra.module.polearm/scythe_head.prefix": "%s"
 }

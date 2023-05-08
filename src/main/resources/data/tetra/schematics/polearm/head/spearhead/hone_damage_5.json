@@ -14,7 +14,7 @@
     },
     "requirement": {
         "type": "tetra:improvement",
-        "improvement": "spearhead_hone/damage",
+        "improvement": "hone_damage/damage",
         "level": 4
     },
     "outcomes": [

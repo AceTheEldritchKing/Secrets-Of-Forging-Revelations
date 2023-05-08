@@ -32,7 +32,7 @@
                 "type": "tetra:not",
                 "requirement": {
                     "type": "tetra:improvement",
-                    "improvement": "spearhead_hone/damage"
+                    "improvement": "hone_damage/damage"
                 }
             }
         ]

@@ -18,7 +18,6 @@
             },
             "effects": {
                 "sweeping": 1,
-                "tetrutils:frenzy": [ 2, 2 ],
                 "armorPenetration": 1,
                 "skewering": 1
             },
@@ -41,7 +40,6 @@
                 },
                 "primaryEffects": {
                     "armorPenetration": 1,
-                    "tetrutils:frenzy": [ 1, 2 ],
                     "skewering": 1
                 },
                 "secondaryEffects": {

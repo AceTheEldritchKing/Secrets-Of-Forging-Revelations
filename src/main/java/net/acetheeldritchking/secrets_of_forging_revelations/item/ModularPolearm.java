@@ -34,7 +34,11 @@ public class ModularPolearm extends ItemModularHandheld {
     private static final GuiModuleOffsets majorOffsets = new GuiModuleOffsets(1, -3, -11, 21);
     private static final GuiModuleOffsets minorOffsets = new GuiModuleOffsets(-14, 0);
 
-    @ObjectHolder(TetraMod.MOD_ID + ":" + identifier)
+    // @ObjectHolder(TetraMod.MOD_ID + ":" + identifier)
+    @ObjectHolder(
+            registryName = "item",
+            value = "tetra:modular_polearm"
+    )
     public static ModularSingleHeadedItem instance;
 
     public ModularPolearm() {
@@ -74,7 +78,7 @@ public class ModularPolearm extends ItemModularHandheld {
         return super.getModelCacheKey(itemStack, entity);
     }
 
-    @Override
+    // @Override
     @OnlyIn(Dist.CLIENT)
     public String getTransformVariant(ItemStack itemStack, @Nullable LivingEntity entity) {
         if (isThrowing(itemStack, entity)) {
@@ -97,14 +101,14 @@ public class ModularPolearm extends ItemModularHandheld {
 
     @Override
     public void fillItemCategory(CreativeModeTab group, NonNullList<ItemStack> items) {
-        if (allowdedIn(group)) {
+        if (allowedIn(group)) {
             items.add(setupPolearm("iron", "stick"));
         }
     }
 
     private ItemStack setupPolearm(String head, String handle) {
         ItemStack itemStack = new ItemStack(this);
-        IModularItem.putModuleInSlot(itemStack, headKey, "polearm/polearm_head", "polearm/polearm_head_material", "polearm_head/" + head);
+        IModularItem.putModuleInSlot(itemStack, headKey, "polearm/spearhead", "polearm/spearhead_material", "spearhead/" + head);
         IModularItem.putModuleInSlot(itemStack, handleKey, "polearm/basic_handle", "polearm/basic_handle_material", "basic_handle/" + handle);
         IModularItem.updateIdentifier(itemStack);
 
