@@ -1,6 +1,6 @@
 {
     "replace": true,
-    "localizationKey": "sword/shared_blade/hone_damage_5",
+    "localizationKey": "sword/shared_blade/hone_damage_2",
     "slots": [
         "polearm/head"
     ],
@@ -14,16 +14,16 @@
     },
     "requirement": {
         "type": "tetra:improvement",
-        "improvement": "hone_damage/damage",
-        "level": 4
+        "improvement": "head_hone/damage",
+        "level": 1
     },
     "outcomes": [
         {
             "requiredTools": {
-                "hammer_dig": "minecraft:stone"
+                "hammer_dig": "minecraft:gold"
             },
             "improvements": {
-                "spearhead_hone/damage": 5
+                "head_hone/damage": 2
             }
         }
     ]

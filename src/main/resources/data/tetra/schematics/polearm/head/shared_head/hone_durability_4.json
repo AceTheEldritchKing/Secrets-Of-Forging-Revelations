@@ -1,6 +1,6 @@
 {
     "replace": true,
-    "localizationKey": "sword/shared_blade/hone_damage_4",
+    "localizationKey": "double/shared_head/hone_durability_4",
     "slots": [
         "polearm/head"
     ],
@@ -9,12 +9,12 @@
     "rarity": "hone",
     "displayType": "major",
     "glyph": {
-        "textureX": 32,
+        "textureX": 16,
         "textureY": 240
     },
     "requirement": {
         "type": "tetra:improvement",
-        "improvement": "hone_damage/damage",
+        "improvement": "head_hone/durability",
         "level": 3
     },
     "outcomes": [
@@ -23,7 +23,7 @@
                 "hammer_dig": "minecraft:stone"
             },
             "improvements": {
-                "spearhead_hone/damage": 4
+                "head_hone/durability": 4
             }
         }
     ]

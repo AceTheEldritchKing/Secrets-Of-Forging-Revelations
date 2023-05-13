@@ -1,8 +1,6 @@
 {
     "replace": true,
-    "slots": [
-        "polearm/binding"
-    ],
+    "slots": [ "polearm/binding" ],
     "materialSlotCount": 1,
     "displayType": "minor",
     "glyph": {
@@ -11,84 +9,10 @@
     },
     "outcomes": [
         {
-            "material": {
-                "items": [ "tetra:pristine_diamond" ]
-            },
-            "experienceCost": 3,
+            "materials": [ "tetra:socket/" ],
             "moduleKey": "polearm/socket",
-            "moduleVariant": "polearm_socket/pristine_diamond"
-        },
-        {
-            "material": {
-                "items": [ "tetra:pristine_emerald" ]
-            },
-            "experienceCost": 3,
-            "moduleKey": "polearm/socket",
-            "moduleVariant": "polearm_socket/pristine_emerald"
-        },
-        {
-            "material": {
-                "items": [ "tetra:pristine_lapis" ]
-            },
-            "experienceCost": 3,
-            "moduleKey": "polearm/socket",
-            "moduleVariant": "polearm_socket/pristine_lapis"
-        },
-        {
-            "material": {
-                "tag": "forge:gems/amber"
-            },
-            "experienceCost": 2,
-            "moduleKey": "polearm/socket",
-            "moduleVariant": "polearm_socket/amber"
-        },
-        {
-            "material": {
-                "tag": "forge:gems/diamond"
-            },
-            "experienceCost": 2,
-            "moduleKey": "polearm/socket",
-            "moduleVariant": "polearm_socket/diamond"
-        },
-        {
-            "material": {
-                "tag": "forge:gems/emerald"
-            },
-            "experienceCost": 2,
-            "moduleKey": "polearm/socket",
-            "moduleVariant": "polearm_socket/emerald"
-        },
-        {
-            "material": {
-                "tag": "forge:gems/lapis"
-            },
-            "experienceCost": 2,
-            "moduleKey": "polearm/socket",
-            "moduleVariant": "polearm_socket/lapis"
-        },
-        {
-            "material": {
-                "tag": "botania:runes/mana"
-            },
-            "experienceCost": 3,
-            "moduleKey": "polearm/socket",
-            "moduleVariant": "polearm_socket/mana_rune"
-        },
-        {
-            "material": {
-                "items": [ "minecraft:nether_star" ]
-            },
-            "experienceCost": 3,
-            "moduleKey": "polearm/socket",
-            "moduleVariant": "polearm_socket/nether_star"
-        },
-        {
-            "material": {
-                "items": [ "alexsmobs:void_worm_eye" ]
-            },
-            "experienceCost": 15,
-            "moduleKey": "polearm/socket",
-            "moduleVariant": "polearm_socket/void_worm_eye"
+            "moduleVariant": "polearm_socket/",
+            "experienceFactor": 1
         }
     ]
 }

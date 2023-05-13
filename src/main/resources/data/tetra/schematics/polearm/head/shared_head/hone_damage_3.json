@@ -14,7 +14,7 @@
     },
     "requirement": {
         "type": "tetra:improvement",
-        "improvement": "hone_damage/damage",
+        "improvement": "head_hone/damage",
         "level": 2
     },
     "outcomes": [
@@ -23,7 +23,7 @@
                 "hammer_dig": "minecraft:stone"
             },
             "improvements": {
-                "spearhead_hone/damage": 3
+                "head_hone/damage": 3
             }
         }
     ]

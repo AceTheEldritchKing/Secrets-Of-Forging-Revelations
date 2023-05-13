@@ -1,243 +1,36 @@
 {
     "replace": true,
     "type": "tetra:basic_module",
-    "slots": [
-        "polearm/binding"
-    ],
+    "slots": [ "polearm/binding" ],
     "renderLayer": "higher",
     "variants": [
         {
-            "key": "polearm_socket/diamond",
-            "category": "gem",
-            "durability": 512,
-            "durabilityMultiplier": 0.8,
-            "integrity": -1,
-            "attributes": {
-                "**generic.attack_damage": 0.1
-            },
-            "tools": {
-                "axe_dig": [ 0, 2 ],
-                "shovel_dig": [ 0, 2 ],
-                "pickaxe_dig": [ 0, 2 ],
-                "hoe_dig": [ 0, 2 ],
-                "cut": [ 0, 2 ]
-            },
-            "glyph": {
-                "tint": "diamond",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/polearm/binding/socket/default",
-                    "tint": "diamond"
-                }
-            ]
-        },
-        {
-            "key": "polearm_socket/emerald",
-            "category": "gem",
-            "durability": 48,
-            "integrity": -1,
-            "glyph": {
-                "tint": "emerald",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/polearm/binding/socket/default",
-                    "tint": "emerald"
-                }
-            ],
-            "effects": {
-                "criticalStrike": [ 15, 2 ]
-            }
-        },
-        {
-            "key": "polearm_socket/lapis",
-            "category": "gem",
-            "durability": 22,
-            "integrity": -1,
-            "glyph": {
-                "tint": "lapis",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/polearm/binding/socket/default",
-                    "tint": "lapis"
-                }
-            ],
-            "effects": {
-                "intuit": 1
-            }
-        },
-        {
-            "key": "polearm_socket/amber",
-            "category": "gem",
-            "durability": 30,
-            "integrity": -1,
-            "glyph": {
-                "tint": "f29000",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/polearm/binding/socket/default",
-                    "tint": "f29000"
-                }
-            ],
-            "effects": {
-                "earthbind": 4
-            }
-        },
-        {
-            "key": "polearm_socket/pristine_diamond",
-            "category": "gem",
-            "durability": 741,
-            "durabilityMultiplier": 0.8,
-            "integrity": -1,
-            "attributes": {
-                "**generic.attack_damage": 0.2
-            },
-            "tools": {
-                "axe_dig": [ 0, 4 ],
-                "shovel_dig": [ 0, 4 ],
-                "pickaxe_dig": [ 0, 4 ],
-                "hoe_dig": [ 0, 4 ],
-                "cut": [ 0, 4 ]
-            },
-            "glyph": {
-                "tint": "diamond",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/polearm/binding/socket/pristine",
-                    "tint": "diamond"
-                }
-            ]
-        },
-        {
-            "key": "polearm_socket/pristine_emerald",
-            "category": "gem",
-            "durability": 25,
-            "integrity": -1,
-            "glyph": {
-                "tint": "emerald",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/polearm/binding/socket/pristine",
-                    "tint": "emerald"
-                }
-            ],
-            "effects": {
-                "criticalStrike": [ 30, 2 ]
-            }
-        },
-        {
-            "key": "polearm_socket/pristine_lapis",
-            "category": "gem",
-            "durability": 18,
-            "integrity": -1,
-            "glyph": {
-                "tint": "lapis",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/polearm/binding/socket/pristine",
-                    "tint": "lapis"
-                }
-            ],
-            "effects": {
-                "intuit": 2
-            }
-        },
-        {
-            "key": "polearm_socket/mana_rune",
-            "integrity": -1,
-            "glyph": {
-                "tint": "c16bc8",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/polearm/binding/socket/pristine",
-                    "tint": "9a3aa8"
-                }
-            ],
-            "effects": {
-                "manaRepair": [ 1, 0.0025 ]
-            }
-        },
-        {
-            "key": "polearm_socket/nether_star",
-            "category": "misc",
-            "durability": 650,
-            "durabilityMultiplier": 0.5,
-            "integrity": -1,
-            "attributes": {
-                "**generic.attack_damage": 0.15
-            },
-            "tools": {
-                "axe_dig": [ 0, 2 ],
-                "shovel_dig": [ 0, 2 ],
-                "pickaxe_dig": [ 0, 2 ],
-                "hoe_dig": [ 0, 2 ],
-                "cut": [ 0, 2 ]
-            },
-            "glyph": {
-                "tint": "fffed0",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [{
-                "location": "tetra:items/module/polearm/binding/nether_star_socket/default",
-                "tint": "fffed0"
-            }],
-            "effects": {
-                "criticalStrike": [ 15, 2 ],
-                "intuit": 1,
-                "stabilizing": 15
-            }
-        },
-        {
-            "key": "polearm_socket/void_worm_eye",
-            "category": "misc",
-            "durability": 800,
-            "durabilityMultiplier": 0.9,
-            "integrity": -1,
-            "attributes": {
-                "**generic.attack_damage": 0.3
-            },
-            "tools": {
-                "axe_dig": [ 0, 5 ],
-                "shovel_dig": [ 0, 5 ],
-                "pickaxe_dig": [ 0, 5 ],
-                "hoe_dig": [ 0, 5 ],
-                "cut": [ 0, 5 ]
-            },
-            "glyph": {
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [{
-                "location": "tetra:items/module/polearm/binding/void_worm_eye/default"
-            }],
-            "effects": {
-                "criticalStrike": [ 32, 2 ],
-                "intuit": 4,
-                "stabilizing": 25
+            "materials": [ "tetra:socket/" ],
+            "key": "polearm_socket/",
+            "extract": {
+                "durability": 1,
+                "integrity": -1,
+                "glyph": {
+                    "textureX":80,
+                    "textureY":16
+                },
+                "tools": {
+                    "axe_dig": [ 0, 1 ],
+                    "shovel_dig": [ 0, 1 ],
+                    "pickaxe_dig": [ 0, 1 ],
+                    "cut": [ 0, 1 ]
+                },
+                "availableTextures": [
+                    "pristine",
+                    "default",
+                    "worm_eye"
+                ],
+                "models":
+                [
+                    {
+                        "location":"tetra:items/module/polearm/binding/binding/socket/"
+                    }
+                ]
             }
         }
     ]
