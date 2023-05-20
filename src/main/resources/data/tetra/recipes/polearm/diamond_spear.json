@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  #",
+        " r ",
+        "r  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "r": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "tetra:modular_polearm",
+        "nbt": {
+            "id": "f1c61b8c-c366-4122-8f67-0c9d766a04f4",
+            "polearm/head": "polearm/spearhead",
+            "polearm/spearhead_material": "spearhead/diamond",
+            "polearm/handle": "polearm/basic_handle",
+            "polearm/basic_handle_material": "basic_handle/oak"
+        }
+    }
+}
