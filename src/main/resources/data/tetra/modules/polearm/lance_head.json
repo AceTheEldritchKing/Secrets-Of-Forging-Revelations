@@ -73,7 +73,8 @@
                 "integrity": -1,
                 "magicCapacity": 1,
                 "glyph": {
-                    "textureX": 0
+                    "textureLocation": "tetra:textures/gui/sofr_glyph.png",
+                    "textureX": 32
                 },
                 "availableTextures": [ "metal", "shiny", "crude" ],
                 "models": [

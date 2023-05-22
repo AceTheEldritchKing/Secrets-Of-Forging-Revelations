@@ -6,8 +6,8 @@
     "materialSlotCount": 1,
     "displayType": "major",
     "glyph": {
-        "textureX": 208,
-        "textureY": 32
+        "textureLocation": "tetra:textures/gui/sofr_glyph.png",
+        "textureX": 16
     },
     "translation": {
         "primaryAttributes": {

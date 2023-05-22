@@ -19,7 +19,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
 
-version = '0.9.4-1.19.2'
+version = '1.0.0-1.19.2'
 group = 'net.acetheedldritchking.secrets_of_forging_revelations' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'secrets_of_forging_revelations'
 
@@ -166,12 +166,12 @@ dependencies {
 
     // Examples using mod jars from ./libs
     // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
-    implementation fg.deobf("curse.maven:tetra-289712:4370833")
+    implementation fg.deobf("curse.maven:tetra-289712:4487237")
     implementation fg.deobf("curse.maven:mutil-351914:3941314")
 
     // implementation fg.deobf("curse.maven:tetrutils-678779:4275797")
     // implementation fg.deobf("curse.maven:tetraenlarged-693367:4203107")
-    implementation fg.deobf("curse.maven:aof-596955:4384831")
+    implementation fg.deobf("curse.maven:aof-596955:4547327")
 
     // runtimeOnly(fg.deobf("curse.maven:nbttool-451553:3748971"))
     // runtimeOnly(fg.deobf("curse.maven:Jei-238222:3940240"))

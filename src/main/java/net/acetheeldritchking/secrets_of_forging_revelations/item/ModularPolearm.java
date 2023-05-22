@@ -12,6 +12,7 @@ import se.mickelus.tetra.ConfigHandler;
 import se.mickelus.tetra.TetraMod;
 import se.mickelus.tetra.data.DataManager;
 import se.mickelus.tetra.gui.GuiModuleOffsets;
+import se.mickelus.tetra.items.TetraItemGroup;
 import se.mickelus.tetra.items.modular.IModularItem;
 import se.mickelus.tetra.items.modular.ItemModularHandheld;
 import se.mickelus.tetra.items.modular.impl.ModularSingleHeadedItem;
@@ -42,7 +43,7 @@ public class ModularPolearm extends ItemModularHandheld {
     public static ModularSingleHeadedItem instance;
 
     public ModularPolearm() {
-        super(new Properties().stacksTo(1).fireResistant());
+        super(new Properties().stacksTo(1).fireResistant().tab(TetraItemGroup.instance));
 
         entityHitDamage = 1;
 
@@ -102,7 +103,7 @@ public class ModularPolearm extends ItemModularHandheld {
     @Override
     public void fillItemCategory(CreativeModeTab group, NonNullList<ItemStack> items) {
         if (allowedIn(group)) {
-            items.add(setupPolearm("iron", "stick"));
+            items.add(setupPolearm("iron", "oak"));
         }
     }
 

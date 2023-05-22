@@ -29,7 +29,7 @@
             "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
             "key": "pike_head/",
             "attributes": {
-                "generic.attack_damage": 1.35,
+                "generic.attack_damage": 1.4,
                 "generic.attack_speed": -1.5
             },
             "effects": {
@@ -47,7 +47,7 @@
                     "generic.attack_damage": 1.5
                 },
                 "secondaryAttributes": {
-                    "generic.attack_damage": 0.35,
+                    "generic.attack_damage": 0.4,
                     "generic.attack_speed": -0.4
                 },
                 "tertiaryAttributes": {
@@ -70,8 +70,8 @@
                 "integrity": -1,
                 "magicCapacity": 0.5,
                 "glyph": {
-                    "textureX": 208,
-                    "textureY": 32
+                    "textureLocation": "tetra:textures/gui/sofr_glyph.png",
+                    "textureX": 16
                 },
                 "availableTextures": [ "metal", "shiny", "crude" ],
                 "models": [
