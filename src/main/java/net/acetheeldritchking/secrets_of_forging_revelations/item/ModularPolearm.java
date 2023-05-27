@@ -3,25 +3,23 @@ package net.acetheeldritchking.secrets_of_forging_revelations.item;
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.registries.ObjectHolder;
 import se.mickelus.mutil.network.PacketHandler;
 import se.mickelus.tetra.ConfigHandler;
-import se.mickelus.tetra.TetraMod;
 import se.mickelus.tetra.data.DataManager;
 import se.mickelus.tetra.gui.GuiModuleOffsets;
 import se.mickelus.tetra.items.TetraItemGroup;
 import se.mickelus.tetra.items.modular.IModularItem;
 import se.mickelus.tetra.items.modular.ItemModularHandheld;
-import se.mickelus.tetra.items.modular.impl.ModularSingleHeadedItem;
 import se.mickelus.tetra.module.SchematicRegistry;
 import se.mickelus.tetra.module.schematic.RemoveSchematic;
 import se.mickelus.tetra.module.schematic.RepairSchematic;
 
 import javax.annotation.Nullable;
-import javax.annotation.ParametersAreNonnullByDefault;
 
 public class ModularPolearm extends ItemModularHandheld {
 
@@ -35,15 +33,14 @@ public class ModularPolearm extends ItemModularHandheld {
     private static final GuiModuleOffsets majorOffsets = new GuiModuleOffsets(1, -3, -11, 21);
     private static final GuiModuleOffsets minorOffsets = new GuiModuleOffsets(-14, 0);
 
-    // @ObjectHolder(TetraMod.MOD_ID + ":" + identifier)
     @ObjectHolder(
             registryName = "item",
             value = "tetra:modular_polearm"
     )
-    public static ModularSingleHeadedItem instance;
+    public static ModularPolearm instance;
 
     public ModularPolearm() {
-        super(new Properties().stacksTo(1).fireResistant().tab(TetraItemGroup.instance));
+        super(new Item.Properties().stacksTo(1).fireResistant().tab(TetraItemGroup.instance));
 
         entityHitDamage = 1;
 
@@ -61,7 +58,7 @@ public class ModularPolearm extends ItemModularHandheld {
 
     @Override
     public void commonInit(PacketHandler packetHandler) {
-        DataManager.instance.synergyData.onReload(() -> synergies = DataManager.instance.getSynergyData("single/"));
+        DataManager.instance.synergyData.onReload(() -> synergies = DataManager.instance.getSynergyData("polearm/"));
     }
 
     public void updateConfig(int honeBase, int honeIntegrityMultiplier) {
@@ -79,7 +76,7 @@ public class ModularPolearm extends ItemModularHandheld {
         return super.getModelCacheKey(itemStack, entity);
     }
 
-    // @Override
+    @Override
     @OnlyIn(Dist.CLIENT)
     public String getTransformVariant(ItemStack itemStack, @Nullable LivingEntity entity) {
         if (isThrowing(itemStack, entity)) {

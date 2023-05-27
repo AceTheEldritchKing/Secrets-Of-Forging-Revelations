@@ -1,6 +1,5 @@
 package net.acetheeldritchking.secrets_of_forging_revelations;
 
-
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,9 +12,9 @@ public class SoFrRegistry {
 
     public static void init(IEventBus bus) {
         ITEMS.register(bus);
-        
+
+        // Modular Polearm
         ITEMS.register(ModularPolearm.identifier, ModularPolearm::new);
     }
-
 
 }

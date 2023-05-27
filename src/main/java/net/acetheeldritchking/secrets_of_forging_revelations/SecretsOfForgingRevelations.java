@@ -3,7 +3,6 @@ package net.acetheeldritchking.secrets_of_forging_revelations;
 import com.mojang.logging.LogUtils;
 import net.acetheeldritchking.secrets_of_forging_revelations.effects.FreezingEffect;
 import net.acetheeldritchking.secrets_of_forging_revelations.effects.potion.PotionEffects;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -23,14 +22,13 @@ public class SecretsOfForgingRevelations
     public SecretsOfForgingRevelations()
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        //var bus = FMLJavaModLoadingContext.get().getModEventBus();
-        //SoFrRegistry.ITEMS.register(bus);
+
         SoFrRegistry.init(FMLJavaModLoadingContext.get().getModEventBus());
 
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::commonSetup);
 
-        // Potion
+        // Potion Effects
         PotionEffects.register(eventBus);
 
         // Register ourselves for server and other game events we are interested in
