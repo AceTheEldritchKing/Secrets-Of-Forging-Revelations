@@ -1,12 +1,12 @@
 {
     "replace": true,
+    "slots": [ "double/binding" ],
     "type": "tetra:basic_module",
-    "slots": [ "polearm/binding" ],
     "renderLayer": "higher",
     "variants": [
         {
             "materials": [ "tetra:socket/" ],
-            "key": "polearm_socket/",
+            "key": "double_socket/",
             "extract": {
                 "durability": 1,
                 "integrity": -1,
@@ -29,7 +29,7 @@
                 "models":
                 [
                     {
-                        "location":"tetra:items/module/polearm/binding/binding/socket/"
+                        "location":"tetra:items/module/double/binding/socket/"
                     }
                 ]
             }

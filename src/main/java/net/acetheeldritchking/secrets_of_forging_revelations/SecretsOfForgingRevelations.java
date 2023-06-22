@@ -1,6 +1,7 @@
 package net.acetheeldritchking.secrets_of_forging_revelations;
 
 import com.mojang.logging.LogUtils;
+import net.acetheeldritchking.secrets_of_forging_revelations.effects.FlameEffect;
 import net.acetheeldritchking.secrets_of_forging_revelations.effects.FreezingEffect;
 import net.acetheeldritchking.secrets_of_forging_revelations.effects.potion.PotionEffects;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,6 +36,8 @@ public class SecretsOfForgingRevelations
         MinecraftForge.EVENT_BUS.register(this);
         // Freezing
         MinecraftForge.EVENT_BUS.register(new FreezingEffect());
+        // Infernal
+        MinecraftForge.EVENT_BUS.register(new FlameEffect());
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

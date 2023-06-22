@@ -30,7 +30,7 @@
             "key": "pike_head/",
             "attributes": {
                 "generic.attack_damage": 1.4,
-                "generic.attack_speed": -1.5
+                "generic.attack_speed": -1.4
             },
             "effects": {
                 "skewering": [ 2, 1 ],
@@ -48,7 +48,7 @@
                 },
                 "secondaryAttributes": {
                     "generic.attack_damage": 0.4,
-                    "generic.attack_speed": -0.4
+                    "generic.attack_speed": -0.3
                 },
                 "tertiaryAttributes": {
                     "generic.attack_damage": -0.2,

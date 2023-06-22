@@ -1,5 +1,6 @@
 package net.acetheeldritchking.secrets_of_forging_revelations;
 
+import net.acetheeldritchking.secrets_of_forging_revelations.effects.FlameEffect;
 import net.acetheeldritchking.secrets_of_forging_revelations.effects.FreezingEffect;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -14,5 +15,6 @@ public class ClientSetup {
     public static void ClientSetup(FMLClientSetupEvent event)
     {
         FreezingEffect.init();
+        FlameEffect.init();
     }
 }
