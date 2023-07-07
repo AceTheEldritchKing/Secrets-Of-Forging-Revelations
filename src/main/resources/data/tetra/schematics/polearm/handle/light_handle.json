@@ -21,7 +21,7 @@
     },
     "outcomes": [
         {
-            "materials": [ "tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rods/" ],
+            "materials": [ "tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/" ],
             "moduleKey": "polearm/light_handle",
             "moduleVariant": "light_handle/"
         }
