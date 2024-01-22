@@ -35,7 +35,7 @@
             "effects": {
                 "sweeping": 3,
                 "severing": [ 1, 0.2 ],
-                "reap": [ 1, 0.5 ]
+                "reap": [ 40, 0.5 ]
             },
             "aspects": {
                 "pointyWeapon": 1,
@@ -56,14 +56,17 @@
                     "generic.attack_speed": 0.25
                 },
                 "primaryEffects": {
-                    "severing": [ 1, 0.1 ]
+                    "severing": [ 1, 0.1 ],
+                    "reap": 5
                 },
                 "secondaryEffect": {
                     "sweeping": -1,
-                    "severing": [ 1, 0.05 ]
+                    "severing": [ 1, 0.05 ],
+                    "reap": -5
                 },
                 "tertiaryEffects": {
-                    "sweeping": 1
+                    "sweeping": 1,
+                    "reap": 5
                 },
                 "durability": 0.65,
                 "integrity": -1,

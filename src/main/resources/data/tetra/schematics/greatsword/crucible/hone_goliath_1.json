@@ -1,27 +1,27 @@
 {
     "replace": true,
-    "slots": [
-        "polearm/head"
-    ],
+    "slots": [ "greatsword/blade" ],
     "materialSlotCount": 0,
-    "displayType": "improvement",
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
     "glyph": {
-        "textureX": 208,
-        "textureY": 32
+        "textureLocation": "tetra:textures/gui/aof_glyph.png",
+        "textureX": 0
     },
     "requirement": {
         "type": "tetra:and",
         "requirements": [
             {
-                "type": "tetra:or",
+                "type": "tetra:and",
                 "requirements": [
                     {
                         "type": "tetra:module",
-                        "module": "polearm/spearhead"
+                        "module": "greatsword/crucible_blade"
                     },
                     {
-                        "type": "tetra:module",
-                        "module": "polearm/trident"
+                        "type": "tetra:improvement",
+                        "improvement": "sword/architect_imprv"
                     }
                 ]
             },
@@ -29,7 +29,7 @@
                 "type": "tetra:not",
                 "requirement": {
                     "type": "tetra:improvement",
-                    "improvement": "spearhead/tempered"
+                    "improvement": "blade/goliath_tier"
                 }
             }
         ]
@@ -37,10 +37,10 @@
     "outcomes": [
         {
             "requiredTools": {
-                "hammer_dig": "minecraft:stone"
+                "hammer_dig": "minecraft:gold"
             },
             "improvements": {
-                "spearhead/tempered": 1
+                "blade/goliath_tier": 1
             }
         }
     ]

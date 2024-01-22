@@ -12,7 +12,8 @@
 	"outcomes": [
 		{
 			"material": {
-				"items": [ "minecraft:blue_ice" ]
+				"items": [ "minecraft:blue_ice" ],
+				"count": 2
 			},
 			"requiredTools": {
 				"hammer_dig": "minecraft:iron"

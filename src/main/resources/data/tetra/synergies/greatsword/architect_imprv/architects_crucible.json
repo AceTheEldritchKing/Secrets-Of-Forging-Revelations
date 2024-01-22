@@ -1,0 +1,8 @@
+[
+    {
+        "modules": [ "greatsword/crucible_blade" ],
+        "matchSuffixed": true,
+        "improvements": [ "sword/architect_imprv" ],
+        "name": "greatsword/architects_crucible"
+    }
+]

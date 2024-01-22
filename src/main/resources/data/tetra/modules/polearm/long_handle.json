@@ -39,9 +39,9 @@
             "materials": [ "tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/" ],
             "key": "long_handle/",
             "attributes": {
-                "generic.attack_speed": -1.1,
-                "forge:reach_distance": 0.5,
-                "forge:attack_range": 0.5
+                "generic.attack_speed": -1.25,
+                "forge:reach_distance": 1.5,
+                "forge:attack_range": 1.5
             },
             "aspects": {
                 "blockBreaker": 1,

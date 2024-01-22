@@ -1,0 +1,26 @@
+{
+    "replace": true,
+    "slots": [ "polearm/head" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "tint": "4d080f",
+        "textureLocation": "tetra:textures/gui/sofr_glyph.png",
+        "textureX": 0
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "art_of_forging:shards_of_malice" ],
+                "count": 15
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "polearm/sanguisuga",
+            "moduleVariant": "sanguisuga/sanguisuga"
+        }
+    ]
+}

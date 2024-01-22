@@ -33,9 +33,10 @@
                 "generic.attack_speed": -1.5
             },
             "effects": {
-                "armorPenetration": 3,
-                "skewering": [ 3, 2 ],
-                "lunge": [ 1, 1 ]
+                "armorPenetration": 20,
+                "skewering": [ 4, 4 ],
+                "lunge": [ 110, 3 ],
+                "art_of_forging:cavalry": 20
             },
             "aspects": {
                 "pointyWeapon": 2,
@@ -57,17 +58,20 @@
                 },
                 "primaryEffects": {
                     "armorPenetration": 0.2,
-                    "skewering": 0.8
+                    "skewering": 0.8,
+                    "art_of_forging:cavalry": 5
                 },
                 "secondaryEffects": {
                     "armorPenetration": 0.2,
-                    "skewering": 0.3,
-                    "lunge": -0.5
+                    "skewering": 0.5,
+                    "lunge": -0.5,
+                    "art_of_forging:cavalry": 2
                 },
                 "tertiaryEffects": {
                     "armorPenetration": -0.3,
                     "skewering": -0.3,
-                    "lunge": 1
+                    "lunge": 1,
+                    "art_of_forging:cavalry": -2
                 },
                 "durability": 0.8,
                 "integrity": -1,

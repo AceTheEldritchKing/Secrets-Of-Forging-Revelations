@@ -24,7 +24,7 @@
 				"sweeping": 1,
 				"truesweep": 1,
 				"intuit": 2,
-				"secrets_of_forging_revelations:freezing": 20
+				"secrets_of_forging_revelations:freezing": [ 15, 1 ]
 			},
 			"magicCapacity": 1500,
 			"glyph": {

@@ -29,7 +29,7 @@
                     "textureX": 7,
                     "textureY": 16
                 },
-                "availableTextures": [ "metal", "crude" ],
+                "availableTextures": [ "metal", "crude", "shiny" ],
                 "models": [{
                     "location": "tetra:items/module/greatsword/guard/straight_guard/"
                 }]

@@ -1,0 +1,37 @@
+{
+    "replace": true,
+    "slots": [ "polearm/head" ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureLocation": "tetra:textures/gui/aof_glyph.png",
+        "textureX": 240,
+        "textureY": 16
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:module",
+                "module": "polearm/soul_fire_scythe"
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "soul_fire_hone/soul_fire",
+                "level": 1
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "requiredTools": {
+                "hammer_dig": "minecraft:gold"
+            },
+            "improvements": {
+                "soul_fire_hone/soul_fire": 2
+            }
+        }
+    ]
+}

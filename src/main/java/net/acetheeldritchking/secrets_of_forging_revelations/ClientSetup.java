@@ -1,5 +1,6 @@
 package net.acetheeldritchking.secrets_of_forging_revelations;
 
+import net.acetheeldritchking.secrets_of_forging_revelations.effects.BlizzardEffect;
 import net.acetheeldritchking.secrets_of_forging_revelations.effects.FlameEffect;
 import net.acetheeldritchking.secrets_of_forging_revelations.effects.FreezingEffect;
 import net.minecraftforge.api.distmarker.Dist;
@@ -16,5 +17,6 @@ public class ClientSetup {
     {
         FreezingEffect.init();
         FlameEffect.init();
+        BlizzardEffect.init();
     }
 }

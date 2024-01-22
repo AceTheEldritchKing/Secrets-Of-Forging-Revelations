@@ -31,6 +31,38 @@
                         "parent": "bettercombat:claymore"
                     }
                 }
+            },
+            "greatsword/crucible_blade": {
+                "conditions": [
+                    {
+                        "type": "improvement",
+                        "improvement": "sword/architect_imprv",
+                        "config": {
+                            "attributes": {
+                                "parent": "bettercombat:crucible"
+                            }
+                        }
+                    }
+                ],
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:claymore"
+                    }
+                }
+            },
+            "greatsword/cataclysm_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:claymore"
+                    }
+                }
+            },
+            "greatsword/flamberge_blade": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:longsword"
+                    }
+                }
             }
         },
         "polearm/head": {
@@ -58,7 +90,7 @@
             "polearm/lance_head": {
                 "config": {
                     "attributes": {
-                        "parent": "bettercombat:spear"
+                        "parent": "bettercombat:lance"
                     }
                 }
             },
@@ -87,6 +119,27 @@
                 "config": {
                     "attributes": {
                         "parent": "bettercombat:scythe"
+                    }
+                }
+            },
+            "polearm/vice_of_eden": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:scythe"
+                    }
+                }
+            },
+            "polearm/soul_fire_scythe": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:scythe"
+                    }
+                }
+            },
+            "polearm/sanguisuga": {
+                "config": {
+                    "attributes": {
+                        "parent": "bettercombat:glaive"
                     }
                 }
             }

@@ -1,0 +1,25 @@
+{
+    "replace": true,
+    "slots": [ "polearm/head" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "tint": "dccb9e",
+        "textureLocation": "tetra:textures/gui/sofr_glyph.png",
+        "textureX": 48
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "art_of_forging:sigil_of_eden" ]
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "polearm/vice_of_eden",
+            "moduleVariant": "vice_of_eden/vice_of_eden"
+        }
+    ]
+}

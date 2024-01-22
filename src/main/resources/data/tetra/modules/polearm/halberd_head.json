@@ -18,7 +18,8 @@
 			"effects": {
 				"armorPenetration": 2.5,
 				"stun": [ 15, 2 ],
-				"sweeping": 5
+				"sweeping": 5,
+				"art_of_forging:dismounting": [ 15, 2.5 ]
 			},
 			"aspects": {
 				"pointyWeapon": 1,
@@ -39,11 +40,13 @@
 					"axe": [ 0.3, 1 ]
 				},
 				"primaryEffects": {
-					"armorPenetration": 1
+					"armorPenetration": 1,
+					"art_of_forging:dismounting": 1
 				},
 				"secondaryEffects": {
 					"armorPenetration": 0.5,
-					"stun": [ 5, 1 ]
+					"stun": [ 5, 1 ],
+					"art_of_forging:dismounting": [ 5, 0.5 ]
 				},
 				"tetriaryEffects": {
 					"stun": -1,

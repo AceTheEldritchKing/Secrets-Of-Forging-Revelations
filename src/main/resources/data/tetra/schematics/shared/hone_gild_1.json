@@ -1,0 +1,53 @@
+{
+  "replace": false,
+  "localizationKey": "shared/hone_gild_1",
+  "slots": [
+    "polearm/handle",
+    "polearm/head"
+  ],
+  "keySuffixes": [
+    "_polearm_handle",
+    "_polearm_head"
+  ],
+  "hone": true,
+  "rarity": "hone",
+  "displayType": "major",
+  "glyph": {
+    "textureX": 112,
+    "textureY": 240
+  },
+  "materialSlotCount": 1,
+  "requirement": {
+    "type": "tetra:and",
+    "requirements": [
+      {
+        "type": "tetra:locked",
+        "key": "tetra:hone/gild_1"
+      },
+      {
+        "type": "tetra:not",
+        "requirement": {
+          "type": "tetra:improvement",
+          "improvement": "hone_gild"
+        }
+      }
+    ]
+  },
+  "outcomes": [
+    {
+      "material": {
+        "items": [
+          "minecraft:gold_nugget"
+        ],
+        "count": 3
+      },
+      "requiredTools": {
+        "hammer_dig": "minecraft:stone"
+      },
+      "experienceCost": 3,
+      "improvements": {
+        "hone_gild": 1
+      }
+    }
+  ]
+}

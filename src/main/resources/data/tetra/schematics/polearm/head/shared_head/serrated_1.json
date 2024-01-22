@@ -1,0 +1,29 @@
+{
+    "replace": true,
+    "slots": [
+        "polearm/head"
+    ],
+    "materialSlotCount": 0,
+    "displayType": "improvement",
+    "glyph": {
+        "textureX": 208,
+        "textureY": 32
+    },
+    "requirement": {
+        "type": "tetra:not",
+        "requirement": {
+            "type": "tetra:improvement",
+            "improvement": "spearhead/serrated"
+        }
+    },
+    "outcomes": [
+        {
+            "requiredTools": {
+                "hammer_dig": "minecraft:stone"
+            },
+            "improvements": {
+                "spearhead/serrated": 1
+            }
+        }
+    ]
+}

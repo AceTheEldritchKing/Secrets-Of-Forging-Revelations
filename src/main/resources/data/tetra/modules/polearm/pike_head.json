@@ -33,8 +33,9 @@
                 "generic.attack_speed": -1.4
             },
             "effects": {
-                "skewering": [ 2, 1 ],
-                "armorPenetration": 5
+                "skewering": [ 3, 3 ],
+                "armorPenetration": 15,
+                "art_of_forging:dismounting": [ 10, 10 ]
             },
             "aspects": {
                 "pointyWeapon": 2,
@@ -56,11 +57,13 @@
                 },
                 "primaryEffects": {
                     "skewering": 0.2,
-                    "armorPenetration": 1
+                    "armorPenetration": 1,
+                    "art_of_forging:dismounting": [ 2, 5 ]
                 },
                 "secondaryEffects": {
                     "skewering": 0.1,
-                    "armorPenetration": 0.5
+                    "armorPenetration": 0.5,
+                    "art_of_forging:dismounting": [ 2, 8.5 ]
                 },
                 "tertiaryEffects": {
                     "skewering": -0.1,

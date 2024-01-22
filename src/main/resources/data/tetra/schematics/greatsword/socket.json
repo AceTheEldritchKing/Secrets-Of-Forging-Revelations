@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "slots": [ "greatsword/guard" ],
+    "materialSlotCount": 1,
+    "displayType": "minor",
+    "glyph": {
+        "textureX": 80,
+        "textureY": 16
+    },
+    "outcomes": [
+        {
+            "materials": [ "tetra:socket/" ],
+            "moduleKey": "greatsword/socket",
+            "moduleVariant": "greatsword_socket/",
+            "experienceFactor": 1
+        }
+    ]
+}

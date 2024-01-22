@@ -56,14 +56,13 @@
                     "generic.attack_speed": 0.25
                 },
                 "primaryEffects": {
-                    "skewering": 1
+                    "skewering": 0.5
                 },
                 "secondaryEffects": {
-                    "skewering": 1,
                     "sweeping": -1
                 },
                 "tertiaryEffects": {
-                    "skewering": -1,
+                    "skewering": -0.5,
                     "sweeping": 1
                 },
                 "durability": 0.8,

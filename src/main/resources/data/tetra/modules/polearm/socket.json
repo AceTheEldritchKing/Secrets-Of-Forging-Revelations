@@ -24,12 +24,13 @@
                     "pristine",
                     "default",
                     "worm_eye",
-                    "thermal"
+                    "thermal",
+                    "sigil_of_eden"
                 ],
                 "models":
                 [
                     {
-                        "location":"tetra:items/module/polearm/binding/binding/socket/"
+                        "location": "tetra:items/module/polearm/binding/binding/socket/"
                     }
                 ]
             }

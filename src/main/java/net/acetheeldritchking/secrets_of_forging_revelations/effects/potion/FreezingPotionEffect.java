@@ -32,6 +32,7 @@ public class FreezingPotionEffect extends MobEffect {
             double z = pLivingEntity.getZ();
 
             pLivingEntity.setIsInPowderSnow(true);
+            pLivingEntity.setTicksFrozen(140);
             ServerLevel level = (ServerLevel) pLivingEntity.getLevel();
             pAmplifier = Math.min(pAmplifier, 10);
 

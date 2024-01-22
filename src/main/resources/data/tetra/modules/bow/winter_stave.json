@@ -1,0 +1,77 @@
+{
+    "replace": true,
+    "slots": [ "bow/stave" ],
+    "type": "tetra:basic_major_module",
+    "improvements": [
+        "tetra:bow/stave/winter_stave",
+        "tetra:bow/shared_stave/",
+        "tetra:bow/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "winter_stave/winter_stave",
+            "integrity": -1,
+            "attributes": {
+                "tetra:draw_speed": 2.5,
+                "tetra:draw_strength": 10
+            },
+            "aspects": {
+                "bow": 2,
+                "breakable": 1
+            },
+            "effects": {
+                "art_of_forging:devouring": [ 2, 5 ],
+                "art_of_forging:life_steal": [ 1.5, 35 ],
+                "art_of_forging:hubris": 50,
+                "secrets_of_forging_revelations:freezing": [ 25, 2 ],
+                "secrets_of_forging_revelations:blizzard": [ 2, 1 ],
+                "spread": [ 0, 99 ],
+                "suspend": 1,
+                "velocity": 15
+            },
+            "magicCapacity": 100,
+            "glyph": {
+                "textureX": 144,
+                "textureY": 32,
+                "tint": "6bd9f2"
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/bow/stave/winter/winter"
+                },
+                {
+                    "type": "draw_0",
+                    "location": "tetra:items/module/bow/stave/winter/0_winter"
+                },
+                {
+                    "type": "draw_1",
+                    "location": "tetra:items/module/bow/stave/winter/1_winter"
+                },
+                {
+                    "type": "draw_2",
+                    "location": "tetra:items/module/bow/stave/winter/1_winter"
+                },
+                {
+                    "location": "tetra:items/module/bow/stave/winter/winter_e",
+                    "emission": 5
+                },
+                {
+                    "type": "draw_0",
+                    "location": "tetra:items/module/bow/stave/winter/0_winter_e",
+                    "emission": 5
+                },
+                {
+                    "type": "draw_1",
+                    "location": "tetra:items/module/bow/stave/winter/1_winter_e",
+                    "emission": 5
+                },
+                {
+                    "type": "draw_2",
+                    "location": "tetra:items/module/bow/stave/winter/1_winter_e",
+                    "emission": 5
+                }
+            ]
+        }
+    ]
+}

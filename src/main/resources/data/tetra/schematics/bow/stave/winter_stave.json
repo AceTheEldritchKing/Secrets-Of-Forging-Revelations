@@ -1,0 +1,26 @@
+{
+    "replace": true,
+    "slots": [ "bow/stave" ],
+    "materialSlotCount": 1,
+    "materialRevealSlot": 0,
+    "rarity": "temporary",
+    "displayType": "major",
+    "glyph": {
+        "textureX": 144,
+        "textureY": 32,
+        "tint": "6bd9f2"
+    },
+    "outcomes": [
+        {
+            "material": {
+                "items": [ "art_of_forging:shards_of_malice" ],
+                "count": 15
+            },
+            "requiredTools": {
+                "hammer_dig": "minecraft:diamond"
+            },
+            "moduleKey": "bow/winter_stave",
+            "moduleVariant": "winter_stave/winter_stave"
+        }
+    ]
+}
