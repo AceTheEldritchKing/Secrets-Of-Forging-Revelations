@@ -86,30 +86,6 @@ public class BlizzardEffect {
         }
     }
 
-    // Freezing immunity
-    @SubscribeEvent
-    public void onLivingHurtEvent(LivingHurtEvent event)
-    {
-        Entity entity = event.getSource().getEntity();
-
-        if (entity instanceof LivingEntity attacker)
-        {
-            ItemStack heldStack = attacker.getMainHandItem();
-
-            if (heldStack.getItem() instanceof ModularItem item)
-            {
-                // Init effect
-                int level = item.getEffectLevel(heldStack, blizzardEffect);
-
-                //event.getSource();
-                if (level > 0 && event.getSource().isMagic() == DamageSource.FREEZE.isMagic())
-                {
-                    event.setCanceled(true);
-                }
-            }
-        }
-    }
-
     private void grantBuffs(Player player, int duration, int level)
     {
         player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, duration*20,

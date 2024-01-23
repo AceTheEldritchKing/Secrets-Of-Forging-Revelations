@@ -3,12 +3,18 @@
 
     "secrets_of_forging_revelations.effect.freezing.name": "Freezing",
     "secrets_of_forging_revelations.effect.freezing.tooltip": "Applies a stacking freezing effect for §e%s seconds.",
+    "tetra.stats.secrets_of_forging_revelations:freezing": "Freezing",
+    "tetra.stats.secrets_of_forging_revelations:freezing.tooltip_short": "Applies a stacking freezing effect",
 
     "secrets_of_forging_revelations.effect.infernal.name": "Infernal",
     "secrets_of_forging_revelations.effect.infernal.tooltip": "Sets target on fire for §e%s seconds.",
+    "tetra.stats.secrets_of_forging_revelations:infernal": "Infernal",
+    "tetra.stats.secrets_of_forging_revelations:infernal.tooltip_short": "Sets target on fire",
 
     "secrets_of_forging_revelations.effect.blizzard.name": "Eternal Blizzard",
-    "secrets_of_forging_revelations.effect.blizzard.tooltip": "In cold biomes, you are granted various buffs to your strength and speed, however, in warmer biomes you are weakened significantly. You are immune to freezing completely",
+    "secrets_of_forging_revelations.effect.blizzard.tooltip": "In cold biomes, you are granted various buffs to your strength and speed, however, in warmer biomes you are weakened significantly. You are immune to the frigid effect",
+    "tetra.stats.secrets_of_forging_revelations:blizzard": "Eternal Blizzard",
+    "tetra.stats.secrets_of_forging_revelations:blizzard.tooltip_short": "Gain buffs in colder biomes and debuffs in warmer biomes.",
 
 
 

@@ -21,7 +21,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'org.spongepowered.mixin'
 
 
-version = '1.3.0-1.19.2'
+version = '1.3.1-1.19.2'
 group = 'net.acetheedldritchking.secrets_of_forging_revelations' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'secrets_of_forging_revelations'
 
@@ -180,7 +180,7 @@ dependencies {
 
     // implementation fg.deobf("curse.maven:tetrutils-678779:4275797")
     // implementation fg.deobf("curse.maven:tetraenlarged-693367:4203107")
-    implementation fg.deobf("curse.maven:aof-596955:4547327")
+    implementation fg.deobf("curse.maven:aof-596955:5051149")
 
     // runtimeOnly(fg.deobf("curse.maven:nbttool-451553:3748971"))
     // runtimeOnly(fg.deobf("curse.maven:Jei-238222:3940240"))
@@ -189,6 +189,13 @@ dependencies {
     implementation fg.deobf("curse.maven:playeranim-658587:4418149")
     implementation fg.deobf("curse.maven:cloth-348521:4633416")
     implementation fg.deobf("curse.maven:tetratic-665884:4583547")
+
+    // These are just for testing damage values :P
+    implementation fg.deobf("curse.maven:mmmmm-225738:4410143")
+    implementation fg.deobf("curse.maven:moonlight-499980:4620027")
+
+    // CURIOS
+    implementation fg.deobf("curse.maven:curios-309927:4902099")
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
