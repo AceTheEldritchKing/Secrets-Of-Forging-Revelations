@@ -1,7 +1,7 @@
 {
     "attributes": {
         "attack_range": 3.5,
-        "two-handed": true,
+        "two_handed": true,
         "pose": "bettercombat:pose_two_handed_polearm",
         "category": "pike",
         "attacks": [
