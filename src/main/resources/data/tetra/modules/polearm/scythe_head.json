@@ -35,7 +35,8 @@
             "effects": {
                 "sweeping": 3,
                 "severing": [ 1, 0.2 ],
-                "reap": [ 40, 0.5 ]
+                "reap": [ 40, 0.5 ],
+                "art_of_forging:beheading": 15
             },
             "aspects": {
                 "pointyWeapon": 1,
@@ -45,7 +46,8 @@
             "durability": 20,
             "extract": {
                 "primaryAttributes": {
-                    "generic.attack_damage": 1.2
+                    "generic.attack_damage": 1.2,
+                    "art_of_forging:beheading": 5
                 },
                 "secondaryAttributes": {
                     "generic.attack_damage": 0.3,
@@ -53,7 +55,8 @@
                 },
                 "tertiaryAttributes": {
                     "generic.attack_damage": -0.25,
-                    "generic.attack_speed": 0.25
+                    "generic.attack_speed": 0.25,
+                    "art_of_forging:beheading": -2
                 },
                 "primaryEffects": {
                     "severing": [ 1, 0.1 ],

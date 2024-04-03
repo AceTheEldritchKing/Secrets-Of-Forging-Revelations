@@ -21,7 +21,7 @@ apply plugin: 'org.parchmentmc.librarian.forgegradle'
 apply plugin: 'org.spongepowered.mixin'
 
 
-version = '1.3.2-1.19.2'
+version = '1.3.3-1.19.2'
 group = 'net.acetheedldritchking.secrets_of_forging_revelations' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'secrets_of_forging_revelations'
 
@@ -180,7 +180,7 @@ dependencies {
 
     // implementation fg.deobf("curse.maven:tetrutils-678779:4275797")
     // implementation fg.deobf("curse.maven:tetraenlarged-693367:4203107")
-    implementation fg.deobf("curse.maven:aof-596955:5051149")
+    implementation fg.deobf("curse.maven:aof-596955:5068358")
 
     // runtimeOnly(fg.deobf("curse.maven:nbttool-451553:3748971"))
     // runtimeOnly(fg.deobf("curse.maven:Jei-238222:3940240"))

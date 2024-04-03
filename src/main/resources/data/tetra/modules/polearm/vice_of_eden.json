@@ -40,6 +40,7 @@
                 "art_of_forging:life_steal": [ 5, 30 ],
                 "art_of_forging:evoking_maw": [ 1, 2 ],
                 "art_of_forging:decaying": [ 1, 2 ],
+                "art_of_forging:beheading": 25,
                 "armorPenetration": 15,
                 "sweeping": 3,
                 "truesweep": 1,
