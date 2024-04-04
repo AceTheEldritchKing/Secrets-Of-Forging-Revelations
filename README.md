@@ -8,6 +8,7 @@ This addon adds in a new modular item; the polearm, and adds in various custom m
 
 While this project is under MIT license, as of 3-31-24, I the author have decided to put some restrictions on this project.
 These shouldn't be too restricting, if you have any questions or issues please make an issue on this Github or DM me on Discord.
+This is in regards for the Tetra version of this project ONLY.
 
 __You May__
 - Fork this repository
