@@ -30,7 +30,7 @@
                 "models":
                 [
                     {
-                        "location": "tetra:items/module/greatsword/guard/socket/"
+                        "location": "tetra:item/module/greatsword/guard/socket/"
                     }
                 ]
             }

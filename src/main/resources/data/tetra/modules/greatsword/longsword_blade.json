@@ -37,7 +37,7 @@
                     "textureX": 0
                 },
                 "availableTextures": [ "metal", "shiny", "grainy", "crude" ],
-                "models": [{ "location":  "tetra:items/module/greatsword/blade/longsword_blade/" }]
+                "models": [{ "location":  "tetra:item/module/greatsword/blade/longsword_blade/" }]
             }
         }
     ]
