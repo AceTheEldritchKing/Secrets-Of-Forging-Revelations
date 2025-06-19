@@ -73,7 +73,7 @@
                 "availableTextures": [ "metal", "shiny", "crude" ],
                 "models": [
                     {
-                        "location": "tetra:items/module/polearm/head/trident/"
+                        "location": "tetra:item/module/polearm/head/trident/"
                     }
                 ]
             }

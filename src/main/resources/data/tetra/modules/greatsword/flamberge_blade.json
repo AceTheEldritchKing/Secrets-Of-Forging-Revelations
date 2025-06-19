@@ -54,7 +54,7 @@
 				},
 				"availableTextures": [ "metal", "shiny", "grainy", "crude" ],
 				"models": [{
-					"location": "tetra:items/module/greatsword/blade/flamberge_blade/"
+					"location": "tetra:item/module/greatsword/blade/flamberge_blade/"
 				}]
 			}
 		}

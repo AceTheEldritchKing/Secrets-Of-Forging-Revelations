@@ -8,9 +8,6 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 
-import java.util.Random;
-
-// Stole from Tetrutils with permission from Panda <3
 public class FreezingPotionEffect extends MobEffect {
     // Random random = new Random();
 
@@ -25,7 +22,7 @@ public class FreezingPotionEffect extends MobEffect {
 
     @Override
     public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
-        if (!pLivingEntity.level.isClientSide())
+        if (!pLivingEntity.level().isClientSide())
         {
             double x = pLivingEntity.getX();
             double y = pLivingEntity.getY();
@@ -33,7 +30,7 @@ public class FreezingPotionEffect extends MobEffect {
 
             pLivingEntity.setIsInPowderSnow(true);
             pLivingEntity.setTicksFrozen(140);
-            ServerLevel level = (ServerLevel) pLivingEntity.getLevel();
+            ServerLevel level = (ServerLevel) pLivingEntity.level();
             pAmplifier = Math.min(pAmplifier, 10);
 
             level.sendParticles(ParticleTypes.SNOWFLAKE, x, y, z, pAmplifier*2, 0.1, 0.1, 0.1, 0.01);

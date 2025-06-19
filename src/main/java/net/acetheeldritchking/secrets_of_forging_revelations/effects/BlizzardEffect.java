@@ -2,18 +2,13 @@ package net.acetheeldritchking.secrets_of_forging_revelations.effects;
 
 import net.acetheeldritchking.secrets_of_forging_revelations.effects.potion.PotionEffects;
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.biome.Biome;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import se.mickelus.tetra.blocks.workbench.gui.WorkbenchStatsGui;
 import se.mickelus.tetra.effect.ItemEffect;
@@ -63,10 +58,10 @@ public class BlizzardEffect {
             BlockPos pos = player.blockPosition();
 
             // Biome temperature
-            boolean coldEnoughToSnow = (player.level.getBiome(pos).value()).coldEnoughToSnow(pos);
-            boolean tooWarm = (player.level.getBiome(pos).value()).warmEnoughToRain(pos);
+            boolean coldEnoughToSnow = (player.level().getBiome(pos).value()).coldEnoughToSnow(pos);
+            boolean tooWarm = (player.level().getBiome(pos).value()).warmEnoughToRain(pos);
 
-            if (level > 0 && !player.level.isClientSide())
+            if (level > 0 && !player.level().isClientSide())
             {
                 if (coldEnoughToSnow)
                 {

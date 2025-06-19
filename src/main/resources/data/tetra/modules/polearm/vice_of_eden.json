@@ -53,7 +53,7 @@
               "textureLocation": "tetra:textures/gui/sofr_glyph.png",
               "textureX": 48
             },
-            "models": [{ "location": "tetra:items/module/polearm/head/vice_of_eden/vice_of_eden" }]
+            "models": [{ "location": "tetra:item/module/polearm/head/vice_of_eden/vice_of_eden" }]
         }
     ]
 }

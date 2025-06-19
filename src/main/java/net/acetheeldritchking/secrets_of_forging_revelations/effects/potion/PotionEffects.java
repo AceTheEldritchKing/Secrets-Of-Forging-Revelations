@@ -20,18 +20,14 @@ public class PotionEffects {
     public static final RegistryObject<MobEffect> FREEZING =
             MOB_EFFECTS.register("freezing", FreezingPotionEffect::new);
 
-    public static void register(IEventBus eventBus)
-    {
+    public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);
     }
 
     public static MobEffectInstance getPotionEffect(ArrayList<MobEffectInstance> effects,
-                                                    MobEffect effectType)
-    {
-        for (var effect: effects)
-        {
-            if (effect.getEffect().equals(effectType))
-            {
+                                                    MobEffect effectType) {
+        for (var effect : effects) {
+            if (effect.getEffect().equals(effectType)) {
                 return effect;
             }
         }

@@ -30,7 +30,7 @@
                 "models":
                 [
                     {
-                        "location": "tetra:items/module/polearm/binding/binding/socket/"
+                        "location": "tetra:item/module/polearm/binding/binding/socket/"
                     }
                 ]
             }

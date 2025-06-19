@@ -50,7 +50,7 @@ public class FlameEffect {
                 int level = item.getEffectLevel(heldStack, infernal);
 
                 // Flame on, baby!
-                if (level > 0 && !attacker.level.isClientSide)
+                if (level > 0 && !attacker.level().isClientSide)
                 {
                     defender.setSecondsOnFire(level);
                 }

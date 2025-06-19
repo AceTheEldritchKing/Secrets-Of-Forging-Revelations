@@ -56,7 +56,7 @@
                     "textureX": 0
                 },
                 "availableTextures": [ "metal", "shiny", "grainy", "crude" ],
-                "models": [{ "location":  "tetra:items/module/greatsword/blade/claymore_blade/" }]
+                "models": [{ "location":  "tetra:item/module/greatsword/blade/claymore_blade/" }]
             }
         }
     ]

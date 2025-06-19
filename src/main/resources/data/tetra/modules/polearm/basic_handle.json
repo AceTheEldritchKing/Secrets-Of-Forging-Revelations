@@ -16,7 +16,7 @@
             "materials": [ "tetra:wood/", "tetra:bone/", "tetra:rod/" ],
             "key": "basic_handle/",
             "attributes": {
-                "generic.attack_speed": -1.75,
+                "generic.attack_speed": -1.2,
                 "forge:reach_distance": 1.0,
                 "forge:attack_range": 1.0
             },
@@ -28,7 +28,7 @@
             "integrity": 1,
             "extract": {
                 "secondaryAttributes": {
-                    "generic.attack_speed": -0.5
+                    "generic.attack_speed": -0.2
                 },
                 "durability": 0.3,
                 "integrity": 1,
@@ -37,7 +37,7 @@
                     "textureX": 16
                 },
                 "availableTextures": [ "default", "metal", "bone", "bright" ],
-                "models": [ { "location": "tetra:items/module/polearm/handle/basic/" } ]
+                "models": [ { "location": "tetra:item/module/polearm/handle/basic/" } ]
             }
         },
         {
@@ -65,7 +65,7 @@
                     "textureX": 16
                 },
                 "availableTextures": [ "default", "metal", "bone", "bright" ],
-                "models": [ { "location": "tetra:items/module/polearm/handle/basic/" } ]
+                "models": [ { "location": "tetra:item/module/polearm/handle/basic/" } ]
             }
         }
     ]

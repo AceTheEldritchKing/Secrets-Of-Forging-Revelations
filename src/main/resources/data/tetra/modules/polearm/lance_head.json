@@ -83,7 +83,7 @@
                 "availableTextures": [ "metal", "shiny", "crude" ],
                 "models": [
                     {
-                        "location": "tetra:items/module/polearm/head/lance_head/"
+                        "location": "tetra:item/module/polearm/head/lance_head/"
                     }
                 ]
             }

@@ -54,7 +54,7 @@
             },
             "models": [
                 {
-                    "location": "tetra:items/module/polearm/head/soul_fire_scythe/soul_fire_scythe"
+                    "location": "tetra:item/module/polearm/head/soul_fire_scythe/soul_fire_scythe"
                 }
             ]
         }

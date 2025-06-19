@@ -1,0 +1,53 @@
+{
+  "tetra.slot.polearm/head": "머리",
+  "tetra.slot.polearm/handle": "손잡이",
+  "tetra.slot.polearm/binding": "바인딩",
+
+  "tetra.improvement.polearm_handle/wrap.name": "%s 끈",
+  "tetra.improvement.polearm_handle/wrap.description": "공격 피해와 속도가 약간 증가하고, 부정적인 손잡이 효과가 감소합니다.",
+
+  "tetra/schematic/polearm/handle/hone_speed_1.name": "연마: 속도 I",
+  "tetra/schematic/polearm/handle/hone_speed_1.description": "이 부품을 연마하여 휘두르는 속도를 증가시킵니다.",
+  "tetra/schematic/polearm/handle/hone_speed_2.name": "연마: 속도 II",
+  "tetra/schematic/polearm/handle/hone_speed_2.description": "이 부품의 휘두르는 속도를 더 연마합니다, 추가 휘두르는 속도가 증가합니다.",
+  "tetra/schematic/polearm/handle/hone_speed_3.name": "연마: 속도 III",
+  "tetra/schematic/polearm/handle/hone_speed_3.description": "이 부품의 휘두르는 속도를 더 연마합니다, 추가 휘두르는 속도가 증가합니다.",
+  "tetra/schematic/polearm/handle/hone_speed_4.name": "연마: 속도 IV",
+  "tetra/schematic/polearm/handle/hone_speed_4.description": "이 부품의 휘두르는 속도를 더 연마합니다, 추가 휘두르는 속도가 증가합니다.",
+  "tetra/schematic/polearm/handle/hone_speed_5.name": "연마: 속도 V",
+  "tetra/schematic/polearm/handle/hone_speed_5.description": "이 부품의 휘두르는 속도를 더 연마합니다, 추가 휘두르는 속도가 증가합니다.",
+
+  "tetra/schematic/polearm/head/spearhead/spearhead.name": "창 머리",
+  "tetra/schematic/polearm/head/spearhead/spearhead.description": "지정된 재료로 창 머리를 만듭니다. 일반적으로 피해를 주는 데 사용됩니다.",
+  "tetra/schematic/polearm/head/spearhead/spearhead.slot1": "머리 재료",
+
+  "tetra.improvement.spearhead/serrated.name": "톱니형",
+  "tetra.improvement.spearhead/serrated.prefix": "톱니형",
+  "tetra.improvement.spearhead/serrated.description": "공격 시 출혈이 발생할 수 있습니다",
+
+  "tetra/schematic/polearm/head/shared_head/serrated_1.name": "톱니형",
+  "tetra/schematic/polearm/head/shared_head/serrated_1.description": "톱니모양의 칼날, 30%% 확률로 4 공격 피해를 주는 출혈을 2초간 부여합니다. 언데드에게 효과적이지 않습니다.",
+
+  "tetra/schematic/polearm/head/shared_head/serrated_2.name": "연마: 톱니형 II",
+  "tetra/schematic/polearm/head/shared_head/serrated_2.description": "톱니모양을 개선하여 공격 피해가 8로 증가합니다.",
+  "tetra/schematic/polearm/head/shared_head/serrated_3.name": "연마: 톱니형 III",
+  "tetra/schematic/polearm/head/shared_head/serrated_3.description": "톱니모양을 개선하여 공격 피해가 16으로 증가합니다.",
+
+  "tetra.improvement.spearhead/tempered.name": "담금",
+  "tetra.improvement.spearhead/tempered.prefix": "담금질",
+  "tetra.improvement.spearhead/tempered.description": "공격이 부분적으로 방어구를 무시합니다",
+
+  "tetra/schematic/polearm/head/shared_head/tempered_1.name": "담금질",
+  "tetra/schematic/polearm/head/shared_head/tempered_1.description": "칼날을 담금질하여, 경도가 크게 증가합니다. 공격 피해의 일부분이 갑옷을 관통합니다.",
+
+  "tetra/schematic/polearm/head/shared_head/tempered_2.name": "연마: 담금질 II",
+  "tetra/schematic/polearm/head/shared_head/tempered_2.description": "담금질을 개선하여, 갑옷을 무시하는 공격 피해를 3으로 증가합니다.",
+  "tetra/schematic/polearm/head/shared_head/tempered_3.name": "연마: 담금질 III",
+  "tetra/schematic/polearm/head/shared_head/tempered_3.description": "담금질의 개선을 한층 더 연마하여, 갑옷을 무시하는 공격 피해를 5로 증가합니다.",
+
+  "tetra.module.polearm/spearhead.item_name": "창",
+  "tetra.module.polearm/spearhead.name": "창 머리",
+  "tetra.module.polearm/spearhead.description": "기본적인 창, 일반적으로 적에게 피해를 주는데 사용됩니다.",
+  "tetra.module.polearm/spearhead.material_name": "%s 창",
+  "tetra.module.polearm/spearhead.prefix": "%s"
+}

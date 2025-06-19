@@ -38,37 +38,37 @@
             },
             "models": [
                 {
-                    "location": "tetra:items/module/bow/stave/winter/winter"
+                    "location": "tetra:item/module/bow/stave/winter/winter"
                 },
                 {
                     "type": "draw_0",
-                    "location": "tetra:items/module/bow/stave/winter/0_winter"
+                    "location": "tetra:item/module/bow/stave/winter/0_winter"
                 },
                 {
                     "type": "draw_1",
-                    "location": "tetra:items/module/bow/stave/winter/1_winter"
+                    "location": "tetra:item/module/bow/stave/winter/1_winter"
                 },
                 {
                     "type": "draw_2",
-                    "location": "tetra:items/module/bow/stave/winter/1_winter"
+                    "location": "tetra:item/module/bow/stave/winter/1_winter"
                 },
                 {
-                    "location": "tetra:items/module/bow/stave/winter/winter_e",
+                    "location": "tetra:item/module/bow/stave/winter/winter_e",
                     "emission": 5
                 },
                 {
                     "type": "draw_0",
-                    "location": "tetra:items/module/bow/stave/winter/0_winter_e",
+                    "location": "tetra:item/module/bow/stave/winter/0_winter_e",
                     "emission": 5
                 },
                 {
                     "type": "draw_1",
-                    "location": "tetra:items/module/bow/stave/winter/1_winter_e",
+                    "location": "tetra:item/module/bow/stave/winter/1_winter_e",
                     "emission": 5
                 },
                 {
                     "type": "draw_2",
-                    "location": "tetra:items/module/bow/stave/winter/1_winter_e",
+                    "location": "tetra:item/module/bow/stave/winter/1_winter_e",
                     "emission": 5
                 }
             ]
