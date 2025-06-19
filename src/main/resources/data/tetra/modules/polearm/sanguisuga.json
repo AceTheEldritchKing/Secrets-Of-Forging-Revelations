@@ -54,7 +54,7 @@
             },
             "models": [
                 {
-                    "location": "tetra:items/module/polearm/head/sanguisuga/sanguisuga"
+                    "location": "tetra:item/module/polearm/head/sanguisuga/sanguisuga"
                 }
             ]
         }

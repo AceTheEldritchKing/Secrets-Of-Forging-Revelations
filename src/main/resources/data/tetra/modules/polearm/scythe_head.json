@@ -81,7 +81,7 @@
                 "availableTextures": [ "metal", "shiny", "crude" ],
                 "models": [
                     {
-                        "location": "tetra:items/module/polearm/head/scythe_head/"
+                        "location": "tetra:item/module/polearm/head/scythe_head/"
                     }
                 ]
             }

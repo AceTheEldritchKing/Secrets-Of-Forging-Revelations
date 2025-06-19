@@ -31,7 +31,7 @@
 				},
 				"availableTextures": [ "metal", "crude", "shiny" ],
 				"models": [{
-					"location": "tetra:items/module/sword/guard/straight_guard/"
+					"location": "tetra:item/module/sword/guard/straight_guard/"
 				}]
 			}
 		}

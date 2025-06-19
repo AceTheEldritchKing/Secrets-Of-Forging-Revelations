@@ -75,7 +75,7 @@
                 "availableTextures": [ "metal", "shiny", "crude" ],
                 "models": [
                     {
-                        "location": "tetra:items/module/polearm/head/naginata_head/"
+                        "location": "tetra:item/module/polearm/head/naginata_head/"
                     }
                 ]
             }

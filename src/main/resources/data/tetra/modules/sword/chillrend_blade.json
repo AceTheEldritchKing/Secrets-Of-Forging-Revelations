@@ -32,7 +32,7 @@
                 "textureY": 48
 			},
 			"models": [{
-					"location": "tetra:items/module/sword/blade/chillrend_blade/chillrend_blade"
+					"location": "tetra:item/module/sword/blade/chillrend_blade/chillrend_blade"
 			}]
 		}
 	]
