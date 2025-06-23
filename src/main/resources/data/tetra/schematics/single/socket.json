@@ -1,13 +1,11 @@
 {
 	"replace": false,
-	"slots": [
-		"single/binding"
-	],
+	"slots": [ "single/binding" ],
 	"materialSlotCount": 1,
 	"displayType": "minor",
 	"glyph": {
 		"textureX": 80,
-		"textureY": 112
+		"textureY": 16
 	},
 	"outcomes": [
 		{

@@ -18,7 +18,7 @@
                 "integrity": 0.7,
                 "glyph": {
                     "textureX": 88,
-                    "textureY": 112
+                    "textureY": 16
                 },
                 "availableTextures": [ "default" ],
                 "models": [ { "location": "tetra:item/module/polearm/binding/binding/" } ]
@@ -33,7 +33,7 @@
             "glyph": {
                 "tint": "bolt_glyph",
                 "textureX": 80,
-                "textureY": 112
+                "textureY": 16
             },
             "models": [
                 {
@@ -52,7 +52,7 @@
             "glyph": {
                 "tint": "prismarine_glyph",
                 "textureX": 7,
-                "textureY": 112
+                "textureY": 16
             },
             "models": [
                 {
