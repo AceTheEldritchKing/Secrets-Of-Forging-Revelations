@@ -16,7 +16,7 @@
 				"generic.attack_damage": 9.5
 			},
 			"aspects": {
-				"edgedWeapon": 2,
+				"edged_weapon": 2,
 				"breakable": 2
 			},
 			"durability": 90,

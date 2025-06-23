@@ -36,9 +36,9 @@
                 "skewering": [ 1, 1 ]
             },
             "aspects": {
-                "pointyWeapon": 2,
+                "pointy_weapon": 2,
                 "throwable": 2,
-                "edgedWeapon": 1,
+                "edged_weapon": 1,
                 "breakable": 2
             },
             "durability": 20,

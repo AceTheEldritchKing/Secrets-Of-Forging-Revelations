@@ -22,7 +22,7 @@
                 "skewering": 1
             },
             "aspects": {
-                "edgedWeapon": 2,
+                "edged_weapon": 2,
                 "breakable": 2
             },
             "durabilty": -20,
