@@ -27,7 +27,7 @@
 				"integrity": -0.1,
 				"glyph": {
 					"textureX": 7,
-                    "textureY": 16
+                    "textureY": 112
 				},
 				"availableTextures": [ "metal", "crude", "shiny" ],
 				"models": [{
