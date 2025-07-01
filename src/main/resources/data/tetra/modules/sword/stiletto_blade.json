@@ -22,7 +22,7 @@
 				"jab": 90
 			},
 			"aspects": {
-				"edgedWeapon": 2,
+				"edged_weapon": 2,
 				"breakable": 2
 			},
 			"durability": -20,

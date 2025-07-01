@@ -39,8 +39,8 @@
                 "art_of_forging:cavalry": 20
             },
             "aspects": {
-                "pointyWeapon": 2,
-                "edgedWeapon": 1,
+                "pointy_weapon": 2,
+                "edged_weapon": 1,
                 "breakable": 2
             },
             "durability": 20,

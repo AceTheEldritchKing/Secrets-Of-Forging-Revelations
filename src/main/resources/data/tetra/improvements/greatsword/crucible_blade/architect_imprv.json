@@ -16,10 +16,10 @@
         },
         "models": [
             {
-                "location": "tetra:items/module/greatsword/blade/crucible_blade/architects_crucible"
+                "location": "tetra:item/module/greatsword/blade/crucible_blade/architects_crucible"
             },
             {
-                "location": "tetra:items/module/greatsword/blade/crucible_blade/architects_crucible_glow",
+                "location": "tetra:item/module/greatsword/blade/crucible_blade/architects_crucible_glow",
                 "emission": 2
             }
         ]

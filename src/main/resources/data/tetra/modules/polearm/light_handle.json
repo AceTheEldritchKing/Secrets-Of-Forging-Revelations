@@ -45,7 +45,7 @@
                 "forge:attack_range": 1.0
             },
             "aspects": {
-                "blockBreaker": 1,
+                "block_breaker": 1,
                 "throwable": 2,
                 "breakable": 2
             },
@@ -78,7 +78,7 @@
                 "throwable": [ 1, 0.9 ]
             },
             "aspects": {
-                "blockBreaker": 1,
+                "block_breaker": 1,
                 "throwable": 2,
                 "breakable": 2
             },
