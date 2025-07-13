@@ -32,7 +32,7 @@ public class SecretsOfForgingRevelations
         IEventBus modEventBus = context.getModEventBus();
 
         // Register items
-        SoFrRegistry.init(FMLJavaModLoadingContext.get().getModEventBus());
+        SoFrRegistry.init(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
