@@ -27,8 +27,7 @@ public class SecretsOfForgingRevelations
     public static final String MOD_ID = "secrets_of_forging_revelations";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public SecretsOfForgingRevelations(FMLJavaModLoadingContext context)
-    {
+    public SecretsOfForgingRevelations(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
         // Register items
