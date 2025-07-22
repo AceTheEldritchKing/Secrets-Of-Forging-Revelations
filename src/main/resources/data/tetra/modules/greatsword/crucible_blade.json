@@ -1,5 +1,5 @@
 {
-	"replace": true,
+	"replace": false,
 	"slots": [ "greatsword/blade" ],
 	"type": "tetra:basic_major_module",
 	"improvements": [
