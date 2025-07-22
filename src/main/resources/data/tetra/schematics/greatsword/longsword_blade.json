@@ -1,5 +1,5 @@
 {
-    "replace": false,
+    "replace": true,
     "slots": [ "greatsword/blade" ],
     "materialSlotCount": 1,
     "displayType": "major",
