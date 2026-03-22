@@ -148,7 +148,7 @@ dependencies {
     implementation fg.deobf("curse.maven:tetra-289712:${tetra_version}")
     implementation fg.deobf("curse.maven:mutil-351914:${mutil_version}")
 
-    implementation fg.deobf("curse.maven:art-of-forging-a-tetra-addon-596955:6510711")
+    implementation fg.deobf("curse.maven:art-of-forging-a-tetra-addon-596955:7790817")
     implementation fg.deobf("curse.maven:cobweb-968456:6089406")
     implementation fg.deobf("curse.maven:soul-fire-d-662413:6248077")
     implementation fg.deobf("curse.maven:curios-309927:6418456")

@@ -38,37 +38,47 @@
             },
             "models": [
                 {
-                    "location": "tetra:item/module/bow/stave/winter/winter"
+                    "type": "tetra:filtered_grid_texture",
+                    "location": "tetra:item/module/bow/stave/winter/winter",
+                    "filter": "undrawn"
                 },
                 {
-                    "type": "draw_0",
-                    "location": "tetra:item/module/bow/stave/winter/0_winter"
+                    "type": "tetra:filtered_grid_texture",
+                    "location": "tetra:item/module/bow/stave/winter/0_winter",
+                    "filter": "draw_0"
                 },
                 {
-                    "type": "draw_1",
-                    "location": "tetra:item/module/bow/stave/winter/1_winter"
+                    "type": "tetra:filtered_grid_texture",
+                    "location": "tetra:item/module/bow/stave/winter/1_winter",
+                    "filter": "draw_1"
                 },
                 {
-                    "type": "draw_2",
-                    "location": "tetra:item/module/bow/stave/winter/1_winter"
+                    "type": "tetra:filtered_grid_texture",
+                    "location": "tetra:item/module/bow/stave/winter/1_winter",
+                    "filter": "draw_2"
                 },
                 {
+                    "type": "tetra:filtered_grid_texture",
                     "location": "tetra:item/module/bow/stave/winter/winter_e",
+                    "filter": "undrawn",
                     "emission": 5
                 },
                 {
-                    "type": "draw_0",
+                    "type": "tetra:filtered_grid_texture",
                     "location": "tetra:item/module/bow/stave/winter/0_winter_e",
+                    "filter": "draw_0",
                     "emission": 5
                 },
                 {
-                    "type": "draw_1",
+                    "type": "tetra:filtered_grid_texture",
                     "location": "tetra:item/module/bow/stave/winter/1_winter_e",
+                    "filter": "draw_1",
                     "emission": 5
                 },
                 {
-                    "type": "draw_2",
+                    "type": "tetra:filtered_grid_texture",
                     "location": "tetra:item/module/bow/stave/winter/1_winter_e",
+                    "filter": "draw_2",
                     "emission": 5
                 }
             ]
