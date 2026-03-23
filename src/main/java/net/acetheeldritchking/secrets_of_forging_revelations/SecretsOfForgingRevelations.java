@@ -27,22 +27,13 @@ public class SecretsOfForgingRevelations
     public static final String MOD_ID = "secrets_of_forging_revelations";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public SecretsOfForgingRevelations(FMLJavaModLoadingContext context)
-    {
-        IEventBus modEventBus = context.getModEventBus();
+    public SecretsOfForgingRevelations() {
+        final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Register items
-        SoFrRegistry.init(FMLJavaModLoadingContext.get().getModEventBus());
-
-        // Register the commonSetup method for modloading
+        SoFrRegistry.init(modEventBus);
         modEventBus.addListener(this::commonSetup);
-
-        // Potion Effects
         PotionEffects.register(modEventBus);
-
-        // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-
         modEventBus.addListener(this::onBuildContents);
 
         // Freezing
